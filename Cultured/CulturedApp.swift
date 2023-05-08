@@ -6,12 +6,21 @@
 //
 
 import SwiftUI
+import CoreLocation
 
 @main
 struct CulturedApp: App {
+    
+    @StateObject private var vm = DistrictsViewModel()
+    
     var body: some Scene {
+        
         WindowGroup {
-            ContentView()
+            NavigationView {
+                DistrictsView(viewModel: LocationViewModel(locations: [Location(name: "", locationType: .landmark, coordinates: CLLocationCoordinate2D(latitude: 42.3319, longitude:  -83.0466), imageNames: [""], link: "")]))
+                    .environmentObject(vm)
+            }
         }
     }
 }
+

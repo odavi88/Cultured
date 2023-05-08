@@ -8,17 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		5D08417529FAF4E700561ED4 /* CulturedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08417429FAF4E700561ED4 /* CulturedApp.swift */; };
-		5D08417729FAF4E700561ED4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08417629FAF4E700561ED4 /* ContentView.swift */; };
+		5D08417729FAF4E700561ED4 /* DistrictsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08417629FAF4E700561ED4 /* DistrictsView.swift */; };
 		5D08417929FAF4E800561ED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D08417829FAF4E800561ED4 /* Assets.xcassets */; };
 		5D08417C29FAF4E800561ED4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D08417B29FAF4E800561ED4 /* Preview Assets.xcassets */; };
+		5D08418629FAF76900561ED4 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08418529FAF76900561ED4 /* Location.swift */; };
+		5D08418929FAFB7000561ED4 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08418829FAFB7000561ED4 /* LocationsDataService.swift */; };
+		5D08418B29FB136200561ED4 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08418A29FB136200561ED4 /* LocationsViewModel.swift */; };
+		5D08418D29FB6AA500561ED4 /* DistrictsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08418C29FB6AA500561ED4 /* DistrictsListView.swift */; };
+		5D08418F29FC009B00561ED4 /* LocationsTabListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08418E29FC009B00561ED4 /* LocationsTabListView.swift */; };
+		5D08419129FC079B00561ED4 /* TabButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08419029FC079B00561ED4 /* TabButtonsView.swift */; };
+		5D08419329FC38AA00561ED4 /* DetroitDialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08419229FC38AA00561ED4 /* DetroitDialView.swift */; };
+		5D08419529FDDB1200561ED4 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08419429FDDB1200561ED4 /* TaskListView.swift */; };
+		5D0841D22A02D8A700561ED4 /* AllDialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0841D12A02D8A700561ED4 /* AllDialsView.swift */; };
+		5D0841D42A03408700561ED4 /* DistrictDialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0841D32A03408700561ED4 /* DistrictDialsView.swift */; };
+		5DB0D1A62A07B9CA009654DB /* DiscoveredButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1A52A07B9CA009654DB /* DiscoveredButtonView.swift */; };
+		5DB0D1A82A07BD1E009654DB /* DiscoveredLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1A72A07BD1E009654DB /* DiscoveredLocationView.swift */; };
+		5DB0D1AA2A07D43C009654DB /* LocaleSuggestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1A92A07D43C009654DB /* LocaleSuggestionsView.swift */; };
+		5DB0D1AC2A07D468009654DB /* SuggestedButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1AB2A07D468009654DB /* SuggestedButtonView.swift */; };
+		5DB0D1AE2A08809E009654DB /* NavigationTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1AD2A08809E009654DB /* NavigationTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5D08417129FAF4E700561ED4 /* Cultured.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cultured.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D08417429FAF4E700561ED4 /* CulturedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CulturedApp.swift; sourceTree = "<group>"; };
-		5D08417629FAF4E700561ED4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5D08417629FAF4E700561ED4 /* DistrictsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictsView.swift; sourceTree = "<group>"; };
 		5D08417829FAF4E800561ED4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D08417B29FAF4E800561ED4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D08418529FAF76900561ED4 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		5D08418829FAFB7000561ED4 /* LocationsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		5D08418A29FB136200561ED4 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		5D08418C29FB6AA500561ED4 /* DistrictsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictsListView.swift; sourceTree = "<group>"; };
+		5D08418E29FC009B00561ED4 /* LocationsTabListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsTabListView.swift; sourceTree = "<group>"; };
+		5D08419029FC079B00561ED4 /* TabButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonsView.swift; sourceTree = "<group>"; };
+		5D08419229FC38AA00561ED4 /* DetroitDialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetroitDialView.swift; sourceTree = "<group>"; };
+		5D08419429FDDB1200561ED4 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		5D0841D12A02D8A700561ED4 /* AllDialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDialsView.swift; sourceTree = "<group>"; };
+		5D0841D32A03408700561ED4 /* DistrictDialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictDialsView.swift; sourceTree = "<group>"; };
+		5DB0D1A52A07B9CA009654DB /* DiscoveredButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveredButtonView.swift; sourceTree = "<group>"; };
+		5DB0D1A72A07BD1E009654DB /* DiscoveredLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveredLocationView.swift; sourceTree = "<group>"; };
+		5DB0D1A92A07D43C009654DB /* LocaleSuggestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleSuggestionsView.swift; sourceTree = "<group>"; };
+		5DB0D1AB2A07D468009654DB /* SuggestedButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedButtonView.swift; sourceTree = "<group>"; };
+		5DB0D1AD2A08809E009654DB /* NavigationTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				5D08417429FAF4E700561ED4 /* CulturedApp.swift */,
-				5D08417629FAF4E700561ED4 /* ContentView.swift */,
+				5D08418729FAFB2700561ED4 /* DataServices */,
+				5D08418429FAF61400561ED4 /* Views */,
+				5D08418329FAF60900561ED4 /* ViewModels */,
+				5D08418229FAF5FD00561ED4 /* Models */,
 				5D08417829FAF4E800561ED4 /* Assets.xcassets */,
 				5D08417A29FAF4E800561ED4 /* Preview Content */,
 			);
@@ -65,6 +98,50 @@
 				5D08417B29FAF4E800561ED4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5D08418229FAF5FD00561ED4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5D08418529FAF76900561ED4 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5D08418329FAF60900561ED4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5D08418A29FB136200561ED4 /* LocationsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5D08418429FAF61400561ED4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D08417629FAF4E700561ED4 /* DistrictsView.swift */,
+				5D08418C29FB6AA500561ED4 /* DistrictsListView.swift */,
+				5D08419429FDDB1200561ED4 /* TaskListView.swift */,
+				5DB0D1A92A07D43C009654DB /* LocaleSuggestionsView.swift */,
+				5DB0D1A72A07BD1E009654DB /* DiscoveredLocationView.swift */,
+				5D08418E29FC009B00561ED4 /* LocationsTabListView.swift */,
+				5D08419029FC079B00561ED4 /* TabButtonsView.swift */,
+				5D0841D12A02D8A700561ED4 /* AllDialsView.swift */,
+				5D08419229FC38AA00561ED4 /* DetroitDialView.swift */,
+				5D0841D32A03408700561ED4 /* DistrictDialsView.swift */,
+				5DB0D1A52A07B9CA009654DB /* DiscoveredButtonView.swift */,
+				5DB0D1AB2A07D468009654DB /* SuggestedButtonView.swift */,
+				5DB0D1AD2A08809E009654DB /* NavigationTestView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5D08418729FAFB2700561ED4 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				5D08418829FAFB7000561ED4 /* LocationsDataService.swift */,
+			);
+			path = DataServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +214,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D08417729FAF4E700561ED4 /* ContentView.swift in Sources */,
+				5D08417729FAF4E700561ED4 /* DistrictsView.swift in Sources */,
+				5DB0D1AA2A07D43C009654DB /* LocaleSuggestionsView.swift in Sources */,
+				5D08418629FAF76900561ED4 /* Location.swift in Sources */,
+				5DB0D1A62A07B9CA009654DB /* DiscoveredButtonView.swift in Sources */,
+				5D08419129FC079B00561ED4 /* TabButtonsView.swift in Sources */,
 				5D08417529FAF4E700561ED4 /* CulturedApp.swift in Sources */,
+				5DB0D1AC2A07D468009654DB /* SuggestedButtonView.swift in Sources */,
+				5D08418D29FB6AA500561ED4 /* DistrictsListView.swift in Sources */,
+				5D08418F29FC009B00561ED4 /* LocationsTabListView.swift in Sources */,
+				5D08419329FC38AA00561ED4 /* DetroitDialView.swift in Sources */,
+				5D08419529FDDB1200561ED4 /* TaskListView.swift in Sources */,
+				5D0841D42A03408700561ED4 /* DistrictDialsView.swift in Sources */,
+				5DB0D1AE2A08809E009654DB /* NavigationTestView.swift in Sources */,
+				5D08418929FAFB7000561ED4 /* LocationsDataService.swift in Sources */,
+				5DB0D1A82A07BD1E009654DB /* DiscoveredLocationView.swift in Sources */,
+				5D0841D22A02D8A700561ED4 /* AllDialsView.swift in Sources */,
+				5D08418B29FB136200561ED4 /* LocationsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +367,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +397,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
