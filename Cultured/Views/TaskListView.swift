@@ -15,7 +15,7 @@ struct TaskListView: View {
     
     var body: some View {
         NavigationView {
-            List {
+            ScrollView {
                 ForEach(vm.districts) { district in
                     Section(district.name) {
                         ForEach(district.tasks) { task in
@@ -29,18 +29,22 @@ struct TaskListView: View {
                                     Text(task.description)
                                     HStack(spacing: 20) {
                                         
-                                        NavigationLink {
-                                            LocaleSuggestionsView()
-                                        } label: {
-                                            Text("Suggestions")
-                                                .padding(.vertical, 15)
-                                                .padding(.horizontal, 5)
-                                                .foregroundColor(.black)
-                                                .background(
-                                                    Color.accentColor
-                                                )
-                                                .cornerRadius(15)
+                                        NavigationLink(destination:  LocaleSuggestionsView()) {
+                                            TaskRowView()
                                         }
+//                                        NavigationLink {
+//                                            LocaleSuggestionsView()
+//                                        } label: {
+//                                            Text("Suggestions")
+//                                                .padding(.vertical, 15)
+//                                                .padding(.horizontal, 5)
+//                                                .foregroundColor(.black)
+//                                                .background(
+//                                                    Color.accentColor
+//                                                )
+//                                                .cornerRadius(15)
+////                                        }
+//                                        .buttonStyle(PlainButtonStyle())
                                         
                                         NavigationLink {
                                             DiscoveredLocationView()
@@ -53,7 +57,7 @@ struct TaskListView: View {
                                                     Color(uiColor: .systemGray5)
                                                 )
                                                 .cornerRadius(15)
-                                        }
+                                        } .buttonStyle(PlainButtonStyle())
 //                                        SuggestedButtonView()
 //                                        DiscoveredButtonView()
                                     }
@@ -67,7 +71,7 @@ struct TaskListView: View {
                 .listRowSeparator(.hidden)
             }
             .listStyle(.inset)
-            .navigationTitle("Tasks")
+            .navigationTitle("Tasks") // "Downtown Tasks etc."
         }
         
     }

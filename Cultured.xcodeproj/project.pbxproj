@@ -26,6 +26,8 @@
 		5DB0D1AA2A07D43C009654DB /* LocaleSuggestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1A92A07D43C009654DB /* LocaleSuggestionsView.swift */; };
 		5DB0D1AC2A07D468009654DB /* SuggestedButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1AB2A07D468009654DB /* SuggestedButtonView.swift */; };
 		5DB0D1AE2A08809E009654DB /* NavigationTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1AD2A08809E009654DB /* NavigationTestView.swift */; };
+		5DB0D1B02A0984E6009654DB /* TaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1AF2A0984E6009654DB /* TaskRowView.swift */; };
+		5DB0D1B22A098BFC009654DB /* DistrictPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1B12A098BFC009654DB /* DistrictPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		5DB0D1A92A07D43C009654DB /* LocaleSuggestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleSuggestionsView.swift; sourceTree = "<group>"; };
 		5DB0D1AB2A07D468009654DB /* SuggestedButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedButtonView.swift; sourceTree = "<group>"; };
 		5DB0D1AD2A08809E009654DB /* NavigationTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTestView.swift; sourceTree = "<group>"; };
+		5DB0D1AF2A0984E6009654DB /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
+		5DB0D1B12A098BFC009654DB /* DistrictPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 				5DB0D1A52A07B9CA009654DB /* DiscoveredButtonView.swift */,
 				5DB0D1AB2A07D468009654DB /* SuggestedButtonView.swift */,
 				5DB0D1AD2A08809E009654DB /* NavigationTestView.swift */,
+				5DB0D1AF2A0984E6009654DB /* TaskRowView.swift */,
+				5DB0D1B12A098BFC009654DB /* DistrictPickerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -221,9 +227,11 @@
 				5D08419129FC079B00561ED4 /* TabButtonsView.swift in Sources */,
 				5D08417529FAF4E700561ED4 /* CulturedApp.swift in Sources */,
 				5DB0D1AC2A07D468009654DB /* SuggestedButtonView.swift in Sources */,
+				5DB0D1B22A098BFC009654DB /* DistrictPickerView.swift in Sources */,
 				5D08418D29FB6AA500561ED4 /* DistrictsListView.swift in Sources */,
 				5D08418F29FC009B00561ED4 /* LocationsTabListView.swift in Sources */,
 				5D08419329FC38AA00561ED4 /* DetroitDialView.swift in Sources */,
+				5DB0D1B02A0984E6009654DB /* TaskRowView.swift in Sources */,
 				5D08419529FDDB1200561ED4 /* TaskListView.swift in Sources */,
 				5D0841D42A03408700561ED4 /* DistrictDialsView.swift in Sources */,
 				5DB0D1AE2A08809E009654DB /* NavigationTestView.swift in Sources */,

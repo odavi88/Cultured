@@ -96,22 +96,21 @@ struct Location: Identifiable {
 }
 
 
-//enum Districts {
-//    case downtown, easternMarket, corktown, mexicantown, midtown
-//
-//    var district: String {
-//        switch self {
-//
-//        case .downtown:
-//           return "Downtown"
-//        case .easternMarket:
-//           return "Eastern Market"
-//        case .corktown:
-//            return "Corktown"
-//        case .mexicantown:
-//            return "Mexicantown"
-//        case .midtown:
-//            return "Midtown"
-//        }
-//    }
-//}
+enum Districts: String, CaseIterable, Identifiable, Hashable  {
+    case downtown, mexicantown, midtown
+
+    var id: UUID {
+        UUID()
+    }
+    var districtName: String {
+        switch self {
+
+        case .downtown:
+           return "Downtown"
+        case .mexicantown:
+            return "Mexicantown"
+        case .midtown:
+            return "Midtown"
+        }
+    }
+}

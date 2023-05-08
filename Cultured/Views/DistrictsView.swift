@@ -12,7 +12,6 @@ import MapKit
 #warning("Is it possible for each of them to be reached with out access to car/ride-share?")
 
 struct DistrictsView: View {
-
     @EnvironmentObject private var vm: DistrictsViewModel
     @ObservedObject var viewModel: LocationViewModel
     
