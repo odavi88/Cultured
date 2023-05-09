@@ -36,7 +36,7 @@ struct TabButtonsView: View {
                 // NOTe: .sheet(isPresented: .constant(true)... to make sheet constant
                 .sheet(isPresented: $vm.showTaskListView) {
                     TaskListView()
-                        .presentationDetents([.height(75), .height(340), .large])
+                        .presentationDetents([.height(340), .large])
 //                        .presentationDetents([.medium])
                 }
                 
