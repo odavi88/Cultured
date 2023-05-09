@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct DiscoveredLocationView: View {
-//    @EnvironmentObject private var vm: LocationViewModel
+    @EnvironmentObject private var vm: DistrictsViewModel
     
     var body: some View {
         NavigationView {

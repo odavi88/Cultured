@@ -16,6 +16,7 @@ struct TaskListView: View {
     var body: some View {
         NavigationView {
             ScrollView {
+                DistrictPickerView()
                 ForEach(vm.districts) { district in
                     ForEach(district.tasks) { task in
                         HStack(alignment: .top, spacing: 15) {
@@ -67,10 +68,8 @@ struct TaskListView: View {
                     }
                 }
             }
-            .listRowSeparator(.hidden)
+            .navigationTitle("Tasks") // "Downtown Tasks etc."
         }
-        .listStyle(.inset)
-        .navigationTitle("Tasks") // "Downtown Tasks etc."
     }
     
 }

@@ -14,7 +14,7 @@ struct DistrictPickerView: View {
             ForEach(Districts.allCases, id: \.self) { district in
                 Text(district.districtName)
             }
-        }
+        }.pickerStyle(.segmented)
     }
 }
 
