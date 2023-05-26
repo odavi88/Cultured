@@ -21,15 +21,6 @@ struct DistrictsListView: View {
                     .padding(.vertical, 4)
                     .listRowBackground(Color.clear)
             }
-//            ForEach(viewModel.locations) { location in
-//                Button {
-//                    viewModel.showNextTask(locaiton: location)
-//                } label: {
-//                    listRowView(location: location.task)
-//                }
-//                    .padding(.vertical, 4)
-//                    .listRowBackground(Color.clear)
-//            }
         }
         .listStyle(.grouped)
     }
@@ -48,6 +39,8 @@ extension DistrictsListView {
         HStack {
             VStack(alignment: .leading) {
                 Text(district.name)
+                    .font(.system(size: 20))
+                    .minimumScaleFactor(0.5)
                     .font(.headline)
                     .foregroundColor(.primary)
             }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DistrictPickerView: View {
+struct CategoryPickerView: View {
     @State private var blah: Districts = .downtown
     var body: some View {
         Picker("Hello", selection: $blah) {
@@ -18,8 +18,8 @@ struct DistrictPickerView: View {
     }
 }
 
-struct DistrictPickerView_Previews: PreviewProvider {
+struct CategoryPickerView_Previews: PreviewProvider {
     static var previews: some View {
-        DistrictPickerView()
+        CategoryPickerView()
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D01B4E62A156796002688BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D01B4E52A156796002688BD /* Assets.xcassets */; };
 		5D08417529FAF4E700561ED4 /* CulturedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08417429FAF4E700561ED4 /* CulturedApp.swift */; };
 		5D08417729FAF4E700561ED4 /* DistrictsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08417629FAF4E700561ED4 /* DistrictsView.swift */; };
 		5D08417929FAF4E800561ED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D08417829FAF4E800561ED4 /* Assets.xcassets */; };
@@ -19,18 +20,20 @@
 		5D08419129FC079B00561ED4 /* TabButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08419029FC079B00561ED4 /* TabButtonsView.swift */; };
 		5D08419329FC38AA00561ED4 /* DetroitDialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08419229FC38AA00561ED4 /* DetroitDialView.swift */; };
 		5D08419529FDDB1200561ED4 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08419429FDDB1200561ED4 /* TaskListView.swift */; };
-		5D0841D22A02D8A700561ED4 /* AllDialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0841D12A02D8A700561ED4 /* AllDialsView.swift */; };
 		5D0841D42A03408700561ED4 /* DistrictDialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0841D32A03408700561ED4 /* DistrictDialsView.swift */; };
-		5DB0D1A62A07B9CA009654DB /* DiscoveredButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1A52A07B9CA009654DB /* DiscoveredButtonView.swift */; };
-		5DB0D1A82A07BD1E009654DB /* DiscoveredLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1A72A07BD1E009654DB /* DiscoveredLocationView.swift */; };
-		5DB0D1AA2A07D43C009654DB /* LocaleSuggestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1A92A07D43C009654DB /* LocaleSuggestionsView.swift */; };
-		5DB0D1AC2A07D468009654DB /* SuggestedButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1AB2A07D468009654DB /* SuggestedButtonView.swift */; };
+		5DB0D1A62A07B9CA009654DB /* CompletedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1A52A07B9CA009654DB /* CompletedView.swift */; };
+		5DB0D1AC2A07D468009654DB /* CompletedButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1AB2A07D468009654DB /* CompletedButtonView.swift */; };
 		5DB0D1AE2A08809E009654DB /* NavigationTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1AD2A08809E009654DB /* NavigationTestView.swift */; };
-		5DB0D1B02A0984E6009654DB /* TaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1AF2A0984E6009654DB /* TaskRowView.swift */; };
-		5DB0D1B22A098BFC009654DB /* DistrictPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1B12A098BFC009654DB /* DistrictPickerView.swift */; };
+		5DB0D1B22A098BFC009654DB /* CategoryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1B12A098BFC009654DB /* CategoryPickerView.swift */; };
+		5DEB9DF92A1A656A002FF773 /* POIView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB9DF82A1A656A002FF773 /* POIView .swift */; };
+		5DEB9DFD2A1BEE44002FF773 /* SuggestionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB9DFC2A1BEE44002FF773 /* SuggestionsListView.swift */; };
+		5DEB9E002A1D274A002FF773 /* ProgressRingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB9DFF2A1D274A002FF773 /* ProgressRingExample.swift */; };
+		5DEB9E022A1D2783002FF773 /* ColorExtentionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB9E012A1D2783002FF773 /* ColorExtentionExample.swift */; };
+		5DEB9E042A1D27D9002FF773 /* DialContentViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB9E032A1D27D9002FF773 /* DialContentViewExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D01B4E52A156796002688BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../../../Desktop/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
 		5D08417129FAF4E700561ED4 /* Cultured.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cultured.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D08417429FAF4E700561ED4 /* CulturedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CulturedApp.swift; sourceTree = "<group>"; };
 		5D08417629FAF4E700561ED4 /* DistrictsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictsView.swift; sourceTree = "<group>"; };
@@ -44,15 +47,16 @@
 		5D08419029FC079B00561ED4 /* TabButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonsView.swift; sourceTree = "<group>"; };
 		5D08419229FC38AA00561ED4 /* DetroitDialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetroitDialView.swift; sourceTree = "<group>"; };
 		5D08419429FDDB1200561ED4 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
-		5D0841D12A02D8A700561ED4 /* AllDialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDialsView.swift; sourceTree = "<group>"; };
 		5D0841D32A03408700561ED4 /* DistrictDialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictDialsView.swift; sourceTree = "<group>"; };
-		5DB0D1A52A07B9CA009654DB /* DiscoveredButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveredButtonView.swift; sourceTree = "<group>"; };
-		5DB0D1A72A07BD1E009654DB /* DiscoveredLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveredLocationView.swift; sourceTree = "<group>"; };
-		5DB0D1A92A07D43C009654DB /* LocaleSuggestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleSuggestionsView.swift; sourceTree = "<group>"; };
-		5DB0D1AB2A07D468009654DB /* SuggestedButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedButtonView.swift; sourceTree = "<group>"; };
+		5DB0D1A52A07B9CA009654DB /* CompletedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedView.swift; sourceTree = "<group>"; };
+		5DB0D1AB2A07D468009654DB /* CompletedButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedButtonView.swift; sourceTree = "<group>"; };
 		5DB0D1AD2A08809E009654DB /* NavigationTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTestView.swift; sourceTree = "<group>"; };
-		5DB0D1AF2A0984E6009654DB /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
-		5DB0D1B12A098BFC009654DB /* DistrictPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictPickerView.swift; sourceTree = "<group>"; };
+		5DB0D1B12A098BFC009654DB /* CategoryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPickerView.swift; sourceTree = "<group>"; };
+		5DEB9DF82A1A656A002FF773 /* POIView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "POIView .swift"; sourceTree = "<group>"; };
+		5DEB9DFC2A1BEE44002FF773 /* SuggestionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsListView.swift; sourceTree = "<group>"; };
+		5DEB9DFF2A1D274A002FF773 /* ProgressRingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRingExample.swift; sourceTree = "<group>"; };
+		5DEB9E012A1D2783002FF773 /* ColorExtentionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtentionExample.swift; sourceTree = "<group>"; };
+		5DEB9E032A1D27D9002FF773 /* DialContentViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialContentViewExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D01B4E72A18D0D2002688BD /* TaskListViews */ = {
+			isa = PBXGroup;
+			children = (
+				5D08419429FDDB1200561ED4 /* TaskListView.swift */,
+				5DB0D1A52A07B9CA009654DB /* CompletedView.swift */,
+				5DB0D1AB2A07D468009654DB /* CompletedButtonView.swift */,
+				5DB0D1B12A098BFC009654DB /* CategoryPickerView.swift */,
+			);
+			path = TaskListViews;
+			sourceTree = "<group>";
+		};
+		5D01B4E82A18D124002688BD /* DistrictViews */ = {
+			isa = PBXGroup;
+			children = (
+				5D08417629FAF4E700561ED4 /* DistrictsView.swift */,
+				5D08418C29FB6AA500561ED4 /* DistrictsListView.swift */,
+				5D08419029FC079B00561ED4 /* TabButtonsView.swift */,
+			);
+			path = DistrictViews;
+			sourceTree = "<group>";
+		};
 		5D08416829FAF4E700561ED4 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +116,7 @@
 				5D08418329FAF60900561ED4 /* ViewModels */,
 				5D08418229FAF5FD00561ED4 /* Models */,
 				5D08417829FAF4E800561ED4 /* Assets.xcassets */,
+				5D01B4E52A156796002688BD /* Assets.xcassets */,
 				5D08417A29FAF4E800561ED4 /* Preview Content */,
 			);
 			path = Cultured;
@@ -99,6 +125,8 @@
 		5D08417A29FAF4E800561ED4 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				5DB0D1AD2A08809E009654DB /* NavigationTestView.swift */,
+				5D08418E29FC009B00561ED4 /* LocationsTabListView.swift */,
 				5D08417B29FAF4E800561ED4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -123,21 +151,11 @@
 		5D08418429FAF61400561ED4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5D08417629FAF4E700561ED4 /* DistrictsView.swift */,
-				5D08418C29FB6AA500561ED4 /* DistrictsListView.swift */,
-				5D08419429FDDB1200561ED4 /* TaskListView.swift */,
-				5DB0D1A92A07D43C009654DB /* LocaleSuggestionsView.swift */,
-				5DB0D1A72A07BD1E009654DB /* DiscoveredLocationView.swift */,
-				5D08418E29FC009B00561ED4 /* LocationsTabListView.swift */,
-				5D08419029FC079B00561ED4 /* TabButtonsView.swift */,
-				5D0841D12A02D8A700561ED4 /* AllDialsView.swift */,
-				5D08419229FC38AA00561ED4 /* DetroitDialView.swift */,
-				5D0841D32A03408700561ED4 /* DistrictDialsView.swift */,
-				5DB0D1A52A07B9CA009654DB /* DiscoveredButtonView.swift */,
-				5DB0D1AB2A07D468009654DB /* SuggestedButtonView.swift */,
-				5DB0D1AD2A08809E009654DB /* NavigationTestView.swift */,
-				5DB0D1AF2A0984E6009654DB /* TaskRowView.swift */,
-				5DB0D1B12A098BFC009654DB /* DistrictPickerView.swift */,
+				5D01B4E82A18D124002688BD /* DistrictViews */,
+				5DEB9DFE2A1BEEC3002FF773 /* SuggestedLocationsViews */,
+				5DEB9DF72A1A642B002FF773 /* POIViews */,
+				5DEB9DF62A1976ED002FF773 /* DialViews */,
+				5D01B4E72A18D0D2002688BD /* TaskListViews */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -148,6 +166,34 @@
 				5D08418829FAFB7000561ED4 /* LocationsDataService.swift */,
 			);
 			path = DataServices;
+			sourceTree = "<group>";
+		};
+		5DEB9DF62A1976ED002FF773 /* DialViews */ = {
+			isa = PBXGroup;
+			children = (
+				5D0841D32A03408700561ED4 /* DistrictDialsView.swift */,
+				5D08419229FC38AA00561ED4 /* DetroitDialView.swift */,
+				5DEB9DFF2A1D274A002FF773 /* ProgressRingExample.swift */,
+				5DEB9E012A1D2783002FF773 /* ColorExtentionExample.swift */,
+				5DEB9E032A1D27D9002FF773 /* DialContentViewExample.swift */,
+			);
+			path = DialViews;
+			sourceTree = "<group>";
+		};
+		5DEB9DF72A1A642B002FF773 /* POIViews */ = {
+			isa = PBXGroup;
+			children = (
+				5DEB9DF82A1A656A002FF773 /* POIView .swift */,
+			);
+			path = POIViews;
+			sourceTree = "<group>";
+		};
+		5DEB9DFE2A1BEEC3002FF773 /* SuggestedLocationsViews */ = {
+			isa = PBXGroup;
+			children = (
+				5DEB9DFC2A1BEE44002FF773 /* SuggestionsListView.swift */,
+			);
+			path = SuggestedLocationsViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D08417C29FAF4E800561ED4 /* Preview Assets.xcassets in Resources */,
+				5D01B4E62A156796002688BD /* Assets.xcassets in Resources */,
 				5D08417929FAF4E800561ED4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,23 +268,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D08417729FAF4E700561ED4 /* DistrictsView.swift in Sources */,
-				5DB0D1AA2A07D43C009654DB /* LocaleSuggestionsView.swift in Sources */,
+				5DEB9E002A1D274A002FF773 /* ProgressRingExample.swift in Sources */,
 				5D08418629FAF76900561ED4 /* Location.swift in Sources */,
-				5DB0D1A62A07B9CA009654DB /* DiscoveredButtonView.swift in Sources */,
+				5DEB9DFD2A1BEE44002FF773 /* SuggestionsListView.swift in Sources */,
+				5DB0D1A62A07B9CA009654DB /* CompletedView.swift in Sources */,
 				5D08419129FC079B00561ED4 /* TabButtonsView.swift in Sources */,
 				5D08417529FAF4E700561ED4 /* CulturedApp.swift in Sources */,
-				5DB0D1AC2A07D468009654DB /* SuggestedButtonView.swift in Sources */,
-				5DB0D1B22A098BFC009654DB /* DistrictPickerView.swift in Sources */,
+				5DB0D1AC2A07D468009654DB /* CompletedButtonView.swift in Sources */,
+				5DB0D1B22A098BFC009654DB /* CategoryPickerView.swift in Sources */,
 				5D08418D29FB6AA500561ED4 /* DistrictsListView.swift in Sources */,
+				5DEB9E022A1D2783002FF773 /* ColorExtentionExample.swift in Sources */,
+				5DEB9E042A1D27D9002FF773 /* DialContentViewExample.swift in Sources */,
 				5D08418F29FC009B00561ED4 /* LocationsTabListView.swift in Sources */,
 				5D08419329FC38AA00561ED4 /* DetroitDialView.swift in Sources */,
-				5DB0D1B02A0984E6009654DB /* TaskRowView.swift in Sources */,
 				5D08419529FDDB1200561ED4 /* TaskListView.swift in Sources */,
 				5D0841D42A03408700561ED4 /* DistrictDialsView.swift in Sources */,
+				5DEB9DF92A1A656A002FF773 /* POIView .swift in Sources */,
 				5DB0D1AE2A08809E009654DB /* NavigationTestView.swift in Sources */,
 				5D08418929FAFB7000561ED4 /* LocationsDataService.swift in Sources */,
-				5DB0D1A82A07BD1E009654DB /* DiscoveredLocationView.swift in Sources */,
-				5D0841D22A02D8A700561ED4 /* AllDialsView.swift in Sources */,
 				5D08418B29FB136200561ED4 /* LocationsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,12 +428,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.omar.davidson.Cultured;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -410,12 +461,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.omar.davidson.Cultured;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

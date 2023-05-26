@@ -10,15 +10,19 @@ import SwiftUI
 struct Person: Identifiable {
     let id = UUID()
     let name: String
+    
+    static var person: [Person] = [
+    
+        Person(name: "Agent 47"),
+        Person(name: "Diana Burnwood"),
+        Person(name: "Oliva Hall"),
+        Person(name: "The Shadow Client"),
+    
+    ]
 }
 
 class PersonViewModel: ObservableObject {
-    @Published var people = [
-        Person(name: "Omar Davidson"),
-        Person(name: "Darth Vader"),
-        Person(name: "The Joker"),
-        Person(name: "Barack Obama"),
-    ]
+    @Published var people: [Person]
     
     init(people: [Person]) {
         self.people = people
@@ -45,7 +49,14 @@ struct NavigationTestView: View {
 
 struct NavigationTestView_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationTestView(vm: PersonViewModel(people: [Person(name: "Omar Davidson")]))
+        NavigationTestView(vm: PersonViewModel(people: [
+//            Person(name: "Omar Davidson"),
+//            Person(name: "President Barak Obama"),
+//            Person(name: "Carie Fischer"),
+//            Person(name: "Archer"),
+//            Person(name: "J.K. Rowling"),
+        ])
+        )
             .environmentObject(PersonViewModel(people: [Person(name: "")]))
     }
 }

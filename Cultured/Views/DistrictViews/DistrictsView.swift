@@ -32,8 +32,23 @@ struct DistrictsView: View {
 
 struct LocationsView_Previews: PreviewProvider {
     static var previews: some View {
-        DistrictsView(viewModel: LocationViewModel(locations: [Location(name: "", locationType: .landmark, coordinates: CLLocationCoordinate2D(latitude: 42.3319, longitude:  -83.0466), imageNames: [""], link: "")]))
+        DistrictsView(viewModel: LocationViewModel(locations: [Location(name: "", services: [""], coordinates: CLLocationCoordinate2D(latitude: 42.3319, longitude:  -83.0466), imageNames: [""], link: "")]))
             .environmentObject(DistrictsViewModel())
+    
+        DistrictsView(viewModel: LocationViewModel(locations: [Location(name: "", services: [""], coordinates: CLLocationCoordinate2D(latitude: 42.3319, longitude:  -83.0466), imageNames: [""], link: "")]))
+            .environmentObject(DistrictsViewModel())
+            .preferredColorScheme(.dark)
+            .previewDisplayName("dark")
+        
+        DistrictsView(viewModel: LocationViewModel(locations: [Location(name: "", services: [""], coordinates: CLLocationCoordinate2D(latitude: 42.3319, longitude:  -83.0466), imageNames: [""], link: "")]))
+            .environmentObject(DistrictsViewModel())
+            .previewDevice("iPhone 14 Pro")
+            .previewDisplayName("14 pro")
+        
+        DistrictsView(viewModel: LocationViewModel(locations: [Location(name: "", services: [""], coordinates: CLLocationCoordinate2D(latitude: 42.3319, longitude:  -83.0466), imageNames: [""], link: "")]))
+            .environmentObject(DistrictsViewModel())
+            .previewDevice("iPhone 13")
+            .previewDisplayName("13")
     }
 }
 
@@ -42,17 +57,21 @@ extension DistrictsView {
     private var header: some View {
         HStack(alignment: .top) {
             VStack {
+                #warning("Make drop down list smaller.")
                 // District Drop Down List Button
                 Button(action: vm.toggleDistrictsList) {
                     Text(vm.mapLocation.name)
-                        .font(.title2)
-                        .fontWeight(.black)
+                        .font(.system(size: 35))
+                        .minimumScaleFactor(0.5)
+                        .fontWeight(.medium)
                         .foregroundColor(.primary)
                         .frame(height: 55)
                         .frame(maxWidth: .infinity)
+                        .padding(.leading, 55)
                         .overlay(alignment: .leading) {
                             Image(systemName: "chevron.down")
-                                .font(.title3)
+                                .font(.system(size: 25))
+                                .minimumScaleFactor(0.5)
                                 .foregroundColor(.primary)
                                 .padding()
                                 .padding(.trailing)
