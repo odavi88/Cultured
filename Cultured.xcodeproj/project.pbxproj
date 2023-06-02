@@ -18,9 +18,17 @@
 		5D08418D29FB6AA500561ED4 /* DistrictsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08418C29FB6AA500561ED4 /* DistrictsListView.swift */; };
 		5D08418F29FC009B00561ED4 /* LocationsTabListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08418E29FC009B00561ED4 /* LocationsTabListView.swift */; };
 		5D08419129FC079B00561ED4 /* TabButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08419029FC079B00561ED4 /* TabButtonsView.swift */; };
-		5D08419329FC38AA00561ED4 /* DetroitDialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08419229FC38AA00561ED4 /* DetroitDialView.swift */; };
 		5D08419529FDDB1200561ED4 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08419429FDDB1200561ED4 /* TaskListView.swift */; };
 		5D0841D42A03408700561ED4 /* DistrictDialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0841D32A03408700561ED4 /* DistrictDialsView.swift */; };
+		5D51E1AF2A2A651E003FE4C7 /* DetroitDialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D51E1AE2A2A651E003FE4C7 /* DetroitDialView.swift */; };
+		5D51E1B22A2A65C3003FE4C7 /* CompletedTasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D51E1B12A2A65C3003FE4C7 /* CompletedTasksView.swift */; };
+		5D51E1B52A2A670C003FE4C7 /* PendingTaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D51E1B42A2A670C003FE4C7 /* PendingTaskListView.swift */; };
+		5D8BF4B02A2A620700C571DE /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8BF4AF2A2A620700C571DE /* Task.swift */; };
+		5D8BF4B22A2A623C00C571DE /* ViewCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8BF4B12A2A623C00C571DE /* ViewCategory.swift */; };
+		5D8BF4B42A2A62A200C571DE /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8BF4B32A2A62A200C571DE /* ViewModel.swift */; };
+		5D8BF4B82A2A638000C571DE /* BottomDrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8BF4B72A2A638000C571DE /* BottomDrawerView.swift */; };
+		5D8BF4BB2A2A63E900C571DE /* SegmentedPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8BF4BA2A2A63E900C571DE /* SegmentedPickerView.swift */; };
+		5D8BF4BE2A2A649F00C571DE /* DialAndCompletedTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8BF4BD2A2A649F00C571DE /* DialAndCompletedTaskView.swift */; };
 		5DB0D1A62A07B9CA009654DB /* CompletedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1A52A07B9CA009654DB /* CompletedView.swift */; };
 		5DB0D1AC2A07D468009654DB /* CompletedButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1AB2A07D468009654DB /* CompletedButtonView.swift */; };
 		5DB0D1AE2A08809E009654DB /* NavigationTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1AD2A08809E009654DB /* NavigationTestView.swift */; };
@@ -45,9 +53,17 @@
 		5D08418C29FB6AA500561ED4 /* DistrictsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictsListView.swift; sourceTree = "<group>"; };
 		5D08418E29FC009B00561ED4 /* LocationsTabListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsTabListView.swift; sourceTree = "<group>"; };
 		5D08419029FC079B00561ED4 /* TabButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonsView.swift; sourceTree = "<group>"; };
-		5D08419229FC38AA00561ED4 /* DetroitDialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetroitDialView.swift; sourceTree = "<group>"; };
 		5D08419429FDDB1200561ED4 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 		5D0841D32A03408700561ED4 /* DistrictDialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictDialsView.swift; sourceTree = "<group>"; };
+		5D51E1AE2A2A651E003FE4C7 /* DetroitDialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetroitDialView.swift; sourceTree = "<group>"; };
+		5D51E1B12A2A65C3003FE4C7 /* CompletedTasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedTasksView.swift; sourceTree = "<group>"; };
+		5D51E1B42A2A670C003FE4C7 /* PendingTaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingTaskListView.swift; sourceTree = "<group>"; };
+		5D8BF4AF2A2A620700C571DE /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		5D8BF4B12A2A623C00C571DE /* ViewCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCategory.swift; sourceTree = "<group>"; };
+		5D8BF4B32A2A62A200C571DE /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		5D8BF4B72A2A638000C571DE /* BottomDrawerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomDrawerView.swift; sourceTree = "<group>"; };
+		5D8BF4BA2A2A63E900C571DE /* SegmentedPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPickerView.swift; sourceTree = "<group>"; };
+		5D8BF4BD2A2A649F00C571DE /* DialAndCompletedTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialAndCompletedTaskView.swift; sourceTree = "<group>"; };
 		5DB0D1A52A07B9CA009654DB /* CompletedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedView.swift; sourceTree = "<group>"; };
 		5DB0D1AB2A07D468009654DB /* CompletedButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedButtonView.swift; sourceTree = "<group>"; };
 		5DB0D1AD2A08809E009654DB /* NavigationTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTestView.swift; sourceTree = "<group>"; };
@@ -84,7 +100,7 @@
 		5D01B4E82A18D124002688BD /* DistrictViews */ = {
 			isa = PBXGroup;
 			children = (
-				5D08417629FAF4E700561ED4 /* DistrictsView.swift */,
+				5D8BF4B62A2A634900C571DE /* DrawerViews */,
 				5D08418C29FB6AA500561ED4 /* DistrictsListView.swift */,
 				5D08419029FC079B00561ED4 /* TabButtonsView.swift */,
 			);
@@ -111,10 +127,10 @@
 			isa = PBXGroup;
 			children = (
 				5D08417429FAF4E700561ED4 /* CulturedApp.swift */,
-				5D08418729FAFB2700561ED4 /* DataServices */,
-				5D08418429FAF61400561ED4 /* Views */,
-				5D08418329FAF60900561ED4 /* ViewModels */,
+				5DCD80392A2A5A5B00F31FB5 /* PlayFiles */,
 				5D08418229FAF5FD00561ED4 /* Models */,
+				5D08418329FAF60900561ED4 /* ViewModels */,
+				5D08418429FAF61400561ED4 /* Views */,
 				5D08417829FAF4E800561ED4 /* Assets.xcassets */,
 				5D01B4E52A156796002688BD /* Assets.xcassets */,
 				5D08417A29FAF4E800561ED4 /* Preview Content */,
@@ -136,6 +152,9 @@
 			isa = PBXGroup;
 			children = (
 				5D08418529FAF76900561ED4 /* Location.swift */,
+				5D8BF4AF2A2A620700C571DE /* Task.swift */,
+				5D8BF4B12A2A623C00C571DE /* ViewCategory.swift */,
+				5D08418729FAFB2700561ED4 /* DataServices */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -143,6 +162,7 @@
 		5D08418329FAF60900561ED4 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				5D8BF4B32A2A62A200C571DE /* ViewModel.swift */,
 				5D08418A29FB136200561ED4 /* LocationsViewModel.swift */,
 			);
 			path = ViewModels;
@@ -151,6 +171,8 @@
 		5D08418429FAF61400561ED4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5D51E1B32A2A66AA003FE4C7 /* ActivitiesListView */,
+				5D8BF4B52A2A62F500C571DE /* HomeView */,
 				5D01B4E82A18D124002688BD /* DistrictViews */,
 				5DEB9DFE2A1BEEC3002FF773 /* SuggestedLocationsViews */,
 				5DEB9DF72A1A642B002FF773 /* POIViews */,
@@ -168,11 +190,77 @@
 			path = DataServices;
 			sourceTree = "<group>";
 		};
+		5D51E1B02A2A6563003FE4C7 /* CompletedTasksView */ = {
+			isa = PBXGroup;
+			children = (
+				5D51E1B12A2A65C3003FE4C7 /* CompletedTasksView.swift */,
+			);
+			path = CompletedTasksView;
+			sourceTree = "<group>";
+		};
+		5D51E1B32A2A66AA003FE4C7 /* ActivitiesListView */ = {
+			isa = PBXGroup;
+			children = (
+				5D51E1B42A2A670C003FE4C7 /* PendingTaskListView.swift */,
+			);
+			path = ActivitiesListView;
+			sourceTree = "<group>";
+		};
+		5D8BF4B52A2A62F500C571DE /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				5D08417629FAF4E700561ED4 /* DistrictsView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		5D8BF4B62A2A634900C571DE /* DrawerViews */ = {
+			isa = PBXGroup;
+			children = (
+				5D8BF4B72A2A638000C571DE /* BottomDrawerView.swift */,
+				5D8BF4B92A2A63B000C571DE /* SegmentedViewPickerView */,
+			);
+			path = DrawerViews;
+			sourceTree = "<group>";
+		};
+		5D8BF4B92A2A63B000C571DE /* SegmentedViewPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				5D8BF4BA2A2A63E900C571DE /* SegmentedPickerView.swift */,
+				5D8BF4BC2A2A645900C571DE /* DialAndCompletedTasksView */,
+			);
+			path = SegmentedViewPickerView;
+			sourceTree = "<group>";
+		};
+		5D8BF4BC2A2A645900C571DE /* DialAndCompletedTasksView */ = {
+			isa = PBXGroup;
+			children = (
+				5D8BF4BD2A2A649F00C571DE /* DialAndCompletedTaskView.swift */,
+				5D8BF4BF2A2A64CD00C571DE /* DialView */,
+				5D51E1B02A2A6563003FE4C7 /* CompletedTasksView */,
+			);
+			path = DialAndCompletedTasksView;
+			sourceTree = "<group>";
+		};
+		5D8BF4BF2A2A64CD00C571DE /* DialView */ = {
+			isa = PBXGroup;
+			children = (
+				5D51E1AE2A2A651E003FE4C7 /* DetroitDialView.swift */,
+			);
+			path = DialView;
+			sourceTree = "<group>";
+		};
+		5DCD80392A2A5A5B00F31FB5 /* PlayFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PlayFiles;
+			sourceTree = "<group>";
+		};
 		5DEB9DF62A1976ED002FF773 /* DialViews */ = {
 			isa = PBXGroup;
 			children = (
 				5D0841D32A03408700561ED4 /* DistrictDialsView.swift */,
-				5D08419229FC38AA00561ED4 /* DetroitDialView.swift */,
 				5DEB9DFF2A1D274A002FF773 /* ProgressRingExample.swift */,
 				5DEB9E012A1D2783002FF773 /* ColorExtentionExample.swift */,
 				5DEB9E032A1D27D9002FF773 /* DialContentViewExample.swift */,
@@ -272,7 +360,12 @@
 				5D08418629FAF76900561ED4 /* Location.swift in Sources */,
 				5DEB9DFD2A1BEE44002FF773 /* SuggestionsListView.swift in Sources */,
 				5DB0D1A62A07B9CA009654DB /* CompletedView.swift in Sources */,
+				5D8BF4B42A2A62A200C571DE /* ViewModel.swift in Sources */,
+				5D8BF4B82A2A638000C571DE /* BottomDrawerView.swift in Sources */,
+				5D51E1B52A2A670C003FE4C7 /* PendingTaskListView.swift in Sources */,
 				5D08419129FC079B00561ED4 /* TabButtonsView.swift in Sources */,
+				5D8BF4B22A2A623C00C571DE /* ViewCategory.swift in Sources */,
+				5D8BF4BE2A2A649F00C571DE /* DialAndCompletedTaskView.swift in Sources */,
 				5D08417529FAF4E700561ED4 /* CulturedApp.swift in Sources */,
 				5DB0D1AC2A07D468009654DB /* CompletedButtonView.swift in Sources */,
 				5DB0D1B22A098BFC009654DB /* CategoryPickerView.swift in Sources */,
@@ -280,12 +373,15 @@
 				5DEB9E022A1D2783002FF773 /* ColorExtentionExample.swift in Sources */,
 				5DEB9E042A1D27D9002FF773 /* DialContentViewExample.swift in Sources */,
 				5D08418F29FC009B00561ED4 /* LocationsTabListView.swift in Sources */,
-				5D08419329FC38AA00561ED4 /* DetroitDialView.swift in Sources */,
+				5D51E1B22A2A65C3003FE4C7 /* CompletedTasksView.swift in Sources */,
 				5D08419529FDDB1200561ED4 /* TaskListView.swift in Sources */,
 				5D0841D42A03408700561ED4 /* DistrictDialsView.swift in Sources */,
 				5DEB9DF92A1A656A002FF773 /* POIView .swift in Sources */,
 				5DB0D1AE2A08809E009654DB /* NavigationTestView.swift in Sources */,
 				5D08418929FAFB7000561ED4 /* LocationsDataService.swift in Sources */,
+				5D8BF4BB2A2A63E900C571DE /* SegmentedPickerView.swift in Sources */,
+				5D8BF4B02A2A620700C571DE /* Task.swift in Sources */,
+				5D51E1AF2A2A651E003FE4C7 /* DetroitDialView.swift in Sources */,
 				5D08418B29FB136200561ED4 /* LocationsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

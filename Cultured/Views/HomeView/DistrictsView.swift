@@ -26,6 +26,8 @@ struct DistrictsView: View {
                     .padding()
                 Spacer()
             }
+            
+            BottomDrawerView()
         }
     }
 }
@@ -88,7 +90,7 @@ extension DistrictsView {
             .cornerRadius(10)
         .shadow(color: Color.black.opacity(0.3), radius: 20, x: 0, y: 15)
             
-                        TabButtonsView()
+//                        TabButtonsView()
             
             Spacer()
             // Tab Bar will go here
@@ -98,28 +100,20 @@ extension DistrictsView {
 }
 
 
-//import Foundation
-//
-//let headers = ["accept": "application/json"]
-//
-//
-//let location = "Detroit"
-//
-//
-//let request = NSMutableURLRequest(url: NSURL(string: "https://api.yelp.com/v3/businesses/search?location=\(location)&term=food&categories=&sort_by=best_match&limit=20")! as URL,
-//                                        cachePolicy: .useProtocolCachePolicy,
-//                                    timeoutInterval: 10.0)
-//request.httpMethod = "GET"
-//request.allHTTPHeaderFields = headers
-//
-//let session = URLSession.shared
-//let dataTask = session.dataTask(with: request as URLRequest, completionHandler: { (data, response, error) -> Void in
-//  if (error != nil) {
-//    print(error as Any)
-//  } else {
-//    let httpResponse = response as? HTTPURLResponse
-//    print(httpResponse)
-//  }
-//})
-//
-//dataTask.resume()
+// Blurred View Here
+struct BlurView: UIViewRepresentable {
+    let style: UIBlurEffect.Style
+    
+    func makeUIView(context: Context) -> UIVisualEffectView {
+        let view = UIVisualEffectView(effect: UIBlurEffect(style: style))
+        
+        return view
+    }
+    
+    func updateUIView(_ uiView: UIVisualEffectView, context: Context) {
+        // do nothing
+    }
+}
+
+
+
