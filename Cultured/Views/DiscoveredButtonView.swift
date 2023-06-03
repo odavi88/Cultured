@@ -7,25 +7,19 @@
 
 import SwiftUI
 
-struct DiscoveredButtonView: View {
+struct CompletedView: View {
     var body: some View {
-        Button(action: {
-            DiscoveredLocationView()
-        }, label: {
-            Text("Discovered!")
-                .padding(.vertical, 15)
-                .padding(.horizontal, 5)
-                .foregroundColor(.black)
-                .background(
-                    Color(uiColor: .systemGray5)
-                )
-                .cornerRadius(15)
-        })
+        VStack {
+            Image(systemName: "checkmark.circle.fill")
+                .resizable()
+                .scaledToFit()
+                .foregroundColor(.blue)
+        }
     }
 }
 
-struct DiscoveredButtonView_Previews: PreviewProvider {
+struct CompletedView_Previews: PreviewProvider {
     static var previews: some View {
-        DiscoveredButtonView()
+        CompletedView()
     }
 }
