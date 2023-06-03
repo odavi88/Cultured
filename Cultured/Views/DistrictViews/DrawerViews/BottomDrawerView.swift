@@ -9,38 +9,41 @@ import SwiftUI
 
 // DrawerView Code Here
 struct BottomDrawerView: View {
-    @State private var offSet: CGFloat = 800
+    @State private var offSet: CGFloat = 0
     @State private var isInitialOffsetSet: Bool = false
+    @GestureState private var dragOffset: CGSize = .zero
     var body: some View {
         ZStack {
-            //            Color.yellow
-            //                .ignoresSafeArea()
             GeometryReader { proxy in
-                //Blur Effect Here
-                BlurView(style: .systemUltraThinMaterial)
                 
-                ZStack {
-//                    SegmentedButtonView()
-                    
+                // MARK: Blur Effect Here
+                BlurView(style: .systemUltraThinMaterial)
+//                HStack {
+                VStack {
+                    CapsuleView()
                     // MARK: Actual PickerButton
                     SegmentedPickerView()
-                        .padding(.top)
-                   
-//                    CapsuleView()
-//                    Spacer()
+                        .environmentObject(DistrictsViewModel())
+//                        .padding(.top)
                 }
+                   
+//                }
+                
             }
             .offset(y: offSet)
             .gesture(
                 DragGesture()
                     .onChanged { value in
-                        let startLocation = value.startLocation
-                        offSet = startLocation.y + value.translation.height
+//                        let startLocation = value.startLocation
+//                    offSet = value.translation.height
+                        let newOffset = offSet + value.translation.height
+                                             offSet = min(max(newOffset, 0), UIScreen.main.bounds.height - 250)
                     }
             )
+            .animation(.spring())
             .onAppear {
                 if !isInitialOffsetSet {
-                    offSet = UIScreen.main.bounds.height - 465
+                    offSet = UIScreen.main.bounds.height - 250
                     isInitialOffsetSet = true
                 }
             }
@@ -60,7 +63,7 @@ struct CapsuleView: View {
     var body: some View {
         VStack {
             Capsule()
-                .frame(width: 70, height: 7)
+                .frame(width: 71, height: 8)
                 .foregroundColor(.white)
                 .padding(9)
         }

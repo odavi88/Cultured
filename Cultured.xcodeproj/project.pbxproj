@@ -20,6 +20,7 @@
 		5D08419129FC079B00561ED4 /* TabButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08419029FC079B00561ED4 /* TabButtonsView.swift */; };
 		5D08419529FDDB1200561ED4 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08419429FDDB1200561ED4 /* TaskListView.swift */; };
 		5D0841D42A03408700561ED4 /* DistrictDialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0841D32A03408700561ED4 /* DistrictDialsView.swift */; };
+		5D0FBBF42A2ABFE8008376B1 /* BottomDrawerFixing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0FBBF32A2ABFE8008376B1 /* BottomDrawerFixing.swift */; };
 		5D51E1AF2A2A651E003FE4C7 /* DetroitDialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D51E1AE2A2A651E003FE4C7 /* DetroitDialView.swift */; };
 		5D51E1B22A2A65C3003FE4C7 /* CompletedTasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D51E1B12A2A65C3003FE4C7 /* CompletedTasksView.swift */; };
 		5D51E1B52A2A670C003FE4C7 /* PendingTaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D51E1B42A2A670C003FE4C7 /* PendingTaskListView.swift */; };
@@ -55,6 +56,7 @@
 		5D08419029FC079B00561ED4 /* TabButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonsView.swift; sourceTree = "<group>"; };
 		5D08419429FDDB1200561ED4 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 		5D0841D32A03408700561ED4 /* DistrictDialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictDialsView.swift; sourceTree = "<group>"; };
+		5D0FBBF32A2ABFE8008376B1 /* BottomDrawerFixing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomDrawerFixing.swift; sourceTree = "<group>"; };
 		5D51E1AE2A2A651E003FE4C7 /* DetroitDialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetroitDialView.swift; sourceTree = "<group>"; };
 		5D51E1B12A2A65C3003FE4C7 /* CompletedTasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedTasksView.swift; sourceTree = "<group>"; };
 		5D51E1B42A2A670C003FE4C7 /* PendingTaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingTaskListView.swift; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 		5DCD80392A2A5A5B00F31FB5 /* PlayFiles */ = {
 			isa = PBXGroup;
 			children = (
+				5D0FBBF32A2ABFE8008376B1 /* BottomDrawerFixing.swift */,
 			);
 			path = PlayFiles;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 				5D8BF4BB2A2A63E900C571DE /* SegmentedPickerView.swift in Sources */,
 				5D8BF4B02A2A620700C571DE /* Task.swift in Sources */,
 				5D51E1AF2A2A651E003FE4C7 /* DetroitDialView.swift in Sources */,
+				5D0FBBF42A2ABFE8008376B1 /* BottomDrawerFixing.swift in Sources */,
 				5D08418B29FB136200561ED4 /* LocationsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

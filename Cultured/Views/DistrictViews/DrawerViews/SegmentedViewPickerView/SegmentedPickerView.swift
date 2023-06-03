@@ -22,7 +22,6 @@ struct SegmentedPickerView: View {
                 PendingTaskListView()
                     .padding(.top, 20)
             } else if vm.selectedViewCategory == .progress {
-                // DialAndCompletedTasksView()
                 DialAndCompletedTaskView()
                     .padding(.top, 20)
             }
@@ -33,6 +32,8 @@ struct SegmentedPickerView: View {
 struct SegmentedPickerView_Previews: PreviewProvider {
     static var previews: some View {
         SegmentedPickerView()
+            .environmentObject(DistrictsViewModel())
+        
     }
 }
 

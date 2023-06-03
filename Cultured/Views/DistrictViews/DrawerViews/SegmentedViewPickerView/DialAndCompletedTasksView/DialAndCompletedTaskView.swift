@@ -13,7 +13,13 @@ struct DialAndCompletedTaskView: View {
             DetroitDialView(progressPercent: 1.0)
                 .padding(.top, 40)
             Spacer()
-            CompletedTasksView()
+            List {
+                Text("aukgauwk")
+                Text("aukgauwk")
+                Text("aukgauwk")
+                Text("aukgauwk")
+            }
+//            CompletedTasksView()
         }
     }
 }

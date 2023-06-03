@@ -18,6 +18,7 @@ struct CulturedApp: App {
         WindowGroup {
             NavigationView {
                 DistrictsView(viewModel: LocationViewModel(locations: [Location(name: "", services: [""], coordinates: CLLocationCoordinate2D(latitude: 42.3319, longitude:  -83.0466), imageNames: [""], link: "")]))
+//                BottomDrawerFixing()
                     .environmentObject(vm)
             }
         }
