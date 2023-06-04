@@ -15,6 +15,7 @@ enum ViewCategory: String, CaseIterable {
 }
 
 enum ViewCategories: String, CaseIterable {
-    case tasks
+    case activities
+    case completed
     case progress
 }

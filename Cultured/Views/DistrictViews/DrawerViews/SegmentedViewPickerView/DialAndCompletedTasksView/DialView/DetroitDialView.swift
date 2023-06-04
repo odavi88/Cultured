@@ -8,68 +8,49 @@
 import SwiftUI
 
 struct DetroitDialView: View {
-    @StateObject private var vm = DistrictsViewModel()
+    @ObservedObject var vm: DistrictsViewModel
     
-    @State var progressPercent: Double
+//    @State var progressPercent: Double
     
     var body: some View {
         VStack {
-            //            ZStack {
-            //                Circle().stroke(Color.accentColor.opacity(0.5), lineWidth: 15)
-            //                    .frame(width: 150, height: 150)
-            //                Circle().trim(from: 0, to: 0.0).stroke(Color.accentColor, lineWidth: 15)
-            //                    .frame(width: 150, height: 150)
-            //                    .rotationEffect(.degrees(-90))
-            //                Text("0%")
-            //                    .font(.subheadline)
-            //            }
-            
-            CircularProgressView(progress: vm.progress)
-            //                .padding(65)
-            
-            Text("Total")
-                .font(.title)
+            CircularProgressView(vm: vm, progress: 0.0)
         }
     }
 }
 
 
 struct CircularProgressView: View {
+    @ObservedObject var vm: DistrictsViewModel
     var progress: Double
     
     var body: some View {
-        ZStack {
-            Circle()
-                .stroke(lineWidth: 10.0)
-                .opacity(0.3)
-                .foregroundColor(.gray)
-            
-            Circle()
-                .trim(from: 0.0, to: CGFloat(min(progress, 1.0)))
-                .stroke(style: StrokeStyle(lineWidth: 10.0, lineCap: .round, lineJoin: .round))
-                .foregroundColor(.blue)
-                .rotationEffect(Angle(degrees: -90))
-            
-            Text("")
-                .font(.headline)
-            
-            
-            //        ZStack {
-            //            Circle().stroke(Color.accentColor.opacity(0.5), lineWidth: 15)
-            //                .frame(width: 250, height: 250)
-            //            Circle().trim(from: 0.0, to: progress).stroke(Color.accentColor, lineWidth: 15)
-            //                .frame(width: 250, height: 250)
-            //                .rotationEffect(.degrees(-90))
-            //            Text("0%")
-            //                .font(.subheadline)
-            //        }
+        VStack {
+            Text("Downtown")
+                .font(.title).bold()
+                .padding(.bottom, 30)
+            ZStack {
+                Circle()
+                    .stroke(lineWidth: 20.0)
+                    .opacity(0.3)
+                    .foregroundColor(.gray)
+                Circle()
+                    .trim(from: 0.0, to: CGFloat(vm.progress))
+                    .stroke(style: StrokeStyle(lineWidth: 20.0, lineCap: .round, lineJoin: .round))
+                    .foregroundColor(.orange)
+                    .rotationEffect(Angle(degrees: -90))
+                Text("\(Int(vm.progress * 100))%")
+                    .font(.title)
+            }
         }
+        .padding(40)
     }
 }
 
 
 struct DetroitDialView_Previews: PreviewProvider {
     static var previews: some View {
-        DetroitDialView(progressPercent: 1.0)
+        DetroitDialView(vm: DistrictsViewModel())
+//            .environmentObject(DistrictsViewModel())
     }
 }

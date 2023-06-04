@@ -34,6 +34,7 @@
 		5DB0D1AC2A07D468009654DB /* CompletedButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1AB2A07D468009654DB /* CompletedButtonView.swift */; };
 		5DB0D1AE2A08809E009654DB /* NavigationTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1AD2A08809E009654DB /* NavigationTestView.swift */; };
 		5DB0D1B22A098BFC009654DB /* CategoryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1B12A098BFC009654DB /* CategoryPickerView.swift */; };
+		5DD0FFD62A2C17B2003355BD /* ProgressDialFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0FFD52A2C17B2003355BD /* ProgressDialFix.swift */; };
 		5DEB9DF92A1A656A002FF773 /* POIView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB9DF82A1A656A002FF773 /* POIView .swift */; };
 		5DEB9DFD2A1BEE44002FF773 /* SuggestionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB9DFC2A1BEE44002FF773 /* SuggestionsListView.swift */; };
 		5DEB9E002A1D274A002FF773 /* ProgressRingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB9DFF2A1D274A002FF773 /* ProgressRingExample.swift */; };
@@ -70,6 +71,7 @@
 		5DB0D1AB2A07D468009654DB /* CompletedButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedButtonView.swift; sourceTree = "<group>"; };
 		5DB0D1AD2A08809E009654DB /* NavigationTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTestView.swift; sourceTree = "<group>"; };
 		5DB0D1B12A098BFC009654DB /* CategoryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPickerView.swift; sourceTree = "<group>"; };
+		5DD0FFD52A2C17B2003355BD /* ProgressDialFix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressDialFix.swift; sourceTree = "<group>"; };
 		5DEB9DF82A1A656A002FF773 /* POIView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "POIView .swift"; sourceTree = "<group>"; };
 		5DEB9DFC2A1BEE44002FF773 /* SuggestionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsListView.swift; sourceTree = "<group>"; };
 		5DEB9DFF2A1D274A002FF773 /* ProgressRingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRingExample.swift; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				5D0FBBF32A2ABFE8008376B1 /* BottomDrawerFixing.swift */,
+				5DD0FFD52A2C17B2003355BD /* ProgressDialFix.swift */,
 			);
 			path = PlayFiles;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				5D08419529FDDB1200561ED4 /* TaskListView.swift in Sources */,
 				5D0841D42A03408700561ED4 /* DistrictDialsView.swift in Sources */,
 				5DEB9DF92A1A656A002FF773 /* POIView .swift in Sources */,
+				5DD0FFD62A2C17B2003355BD /* ProgressDialFix.swift in Sources */,
 				5DB0D1AE2A08809E009654DB /* NavigationTestView.swift in Sources */,
 				5D08418929FAFB7000561ED4 /* LocationsDataService.swift in Sources */,
 				5D8BF4BB2A2A63E900C571DE /* SegmentedPickerView.swift in Sources */,

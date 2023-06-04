@@ -13,7 +13,9 @@ struct CompletedTasksView: View {
         NavigationView {
             List {
                 ForEach(vm.completedTasks) { task in
-                    Text(task.description)
+                    HStack {
+                        Text(task.description)
+                    }
                 }
             }
             .navigationTitle("Completed")

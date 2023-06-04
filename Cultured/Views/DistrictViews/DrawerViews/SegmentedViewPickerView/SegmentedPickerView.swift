@@ -18,12 +18,15 @@ struct SegmentedPickerView: View {
             }
             .pickerStyle(SegmentedPickerStyle())
             
-            if vm.selectedViewCategory == .tasks {
+            if vm.selectedViewCategory == .activities {
                 PendingTaskListView()
-                    .padding(.top, 20)
+                    .padding(.top, 0)
+            } else if vm.selectedViewCategory == .completed {
+                CompletedTasksView()
             } else if vm.selectedViewCategory == .progress {
-                DialAndCompletedTaskView()
-                    .padding(.top, 20)
+                DetroitDialView(vm: vm)
+                Spacer()
+                
             }
         }
     }

@@ -18,19 +18,15 @@ struct BottomDrawerView: View {
                 
                 // MARK: Blur Effect Here
                 BlurView(style: .systemUltraThinMaterial)
-//                HStack {
                 VStack {
                     CapsuleView()
                     // MARK: Actual PickerButton
                     SegmentedPickerView()
                         .environmentObject(DistrictsViewModel())
-//                        .padding(.top)
                 }
-                   
-//                }
-                
             }
             .offset(y: offSet)
+            .animation(.spring(), value: offSet)
             .gesture(
                 DragGesture()
                     .onChanged { value in
@@ -40,7 +36,6 @@ struct BottomDrawerView: View {
                                              offSet = min(max(newOffset, 0), UIScreen.main.bounds.height - 250)
                     }
             )
-            .animation(.spring())
             .onAppear {
                 if !isInitialOffsetSet {
                     offSet = UIScreen.main.bounds.height - 250

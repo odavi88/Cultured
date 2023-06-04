@@ -13,14 +13,14 @@ import MapKit
 
 struct DistrictsView: View {
     @EnvironmentObject private var vm: DistrictsViewModel
-    @ObservedObject var viewModel: LocationViewModel
+//    @ObservedObject var viewModel: LocationViewModel
     
     var body: some View {
         ZStack {
-            Map(coordinateRegion: $vm.mapRegion, annotationItems: viewModel.locations, annotationContent: { location in
-                MapMarker(coordinate: location.coordinates)
-            })
-                .ignoresSafeArea()
+//            Map(coordinateRegion: $vm.mapRegion, annotationContent: { location in
+//                MapMarker(coordinate: location.coordinates)
+//            })
+//                .ignoresSafeArea()
             VStack {
                 header
                     .padding()
@@ -34,23 +34,25 @@ struct DistrictsView: View {
 
 struct LocationsView_Previews: PreviewProvider {
     static var previews: some View {
-        DistrictsView(viewModel: LocationViewModel(locations: [Location(name: "", services: [""], coordinates: CLLocationCoordinate2D(latitude: 42.3319, longitude:  -83.0466), imageNames: [""], link: "")]))
+        DistrictsView()
             .environmentObject(DistrictsViewModel())
-    
-        DistrictsView(viewModel: LocationViewModel(locations: [Location(name: "", services: [""], coordinates: CLLocationCoordinate2D(latitude: 42.3319, longitude:  -83.0466), imageNames: [""], link: "")]))
-            .environmentObject(DistrictsViewModel())
-            .preferredColorScheme(.dark)
-            .previewDisplayName("dark")
-        
-        DistrictsView(viewModel: LocationViewModel(locations: [Location(name: "", services: [""], coordinates: CLLocationCoordinate2D(latitude: 42.3319, longitude:  -83.0466), imageNames: [""], link: "")]))
-            .environmentObject(DistrictsViewModel())
-            .previewDevice("iPhone 14 Pro")
-            .previewDisplayName("14 pro")
-        
-        DistrictsView(viewModel: LocationViewModel(locations: [Location(name: "", services: [""], coordinates: CLLocationCoordinate2D(latitude: 42.3319, longitude:  -83.0466), imageNames: [""], link: "")]))
-            .environmentObject(DistrictsViewModel())
-            .previewDevice("iPhone 13")
-            .previewDisplayName("13")
+//        DistrictsView(viewModel: LocationViewModel(locations: [Location(name: "", services: [""], coordinates: CLLocationCoordinate2D(latitude: 42.3319, longitude:  -83.0466), imageNames: [""], link: "")]))
+//            .environmentObject(DistrictsViewModel())
+//
+//        DistrictsView(viewModel: LocationViewModel(locations: [Location(name: "", services: [""], coordinates: CLLocationCoordinate2D(latitude: 42.3319, longitude:  -83.0466), imageNames: [""], link: "")]))
+//            .environmentObject(DistrictsViewModel())
+//            .preferredColorScheme(.dark)
+//            .previewDisplayName("dark")
+//
+//        DistrictsView(viewModel: LocationViewModel(locations: [Location(name: "", services: [""], coordinates: CLLocationCoordinate2D(latitude: 42.3319, longitude:  -83.0466), imageNames: [""], link: "")]))
+//            .environmentObject(DistrictsViewModel())
+//            .previewDevice("iPhone 14 Pro")
+//            .previewDisplayName("14 pro")
+//
+//        DistrictsView(viewModel: LocationViewModel(locations: [Location(name: "", services: [""], coordinates: CLLocationCoordinate2D(latitude: 42.3319, longitude:  -83.0466), imageNames: [""], link: "")]))
+//            .environmentObject(DistrictsViewModel())
+//            .previewDevice("iPhone 13")
+//            .previewDisplayName("13")
     }
 }
 

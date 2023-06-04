@@ -11,7 +11,6 @@ struct PendingTaskListView: View {
     @EnvironmentObject var vm: DistrictsViewModel
     var body: some View {
         NavigationView {
-            VStack {
                 List {
                     ForEach(vm.tasks) { task in
                         HStack(alignment: .top) {
@@ -30,7 +29,6 @@ struct PendingTaskListView: View {
                     }
                 }
                 .navigationTitle("Activities")
-            }
         }
     }
 }

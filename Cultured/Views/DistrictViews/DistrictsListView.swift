@@ -9,7 +9,7 @@ import SwiftUI
 
 struct DistrictsListView: View {
     @EnvironmentObject private var vm: DistrictsViewModel
-    @EnvironmentObject private var viewModel: LocationViewModel
+//    @EnvironmentObject private var viewModel: LocationViewModel
     var body: some View {
         List {
             ForEach(vm.districts) { district in

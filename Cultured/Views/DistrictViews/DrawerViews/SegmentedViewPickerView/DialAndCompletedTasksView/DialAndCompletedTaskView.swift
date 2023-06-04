@@ -8,17 +8,12 @@
 import SwiftUI
 
 struct DialAndCompletedTaskView: View {
+    @EnvironmentObject var vm: DistrictsViewModel
     var body: some View {
         VStack {
-            DetroitDialView(progressPercent: 1.0)
-                .padding(.top, 40)
+            DetroitDialView(vm: DistrictsViewModel())
+                .padding(.top)
             Spacer()
-            List {
-                Text("aukgauwk")
-                Text("aukgauwk")
-                Text("aukgauwk")
-                Text("aukgauwk")
-            }
 //            CompletedTasksView()
         }
     }
