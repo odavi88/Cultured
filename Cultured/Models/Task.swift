@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct Task: Identifiable, Equatable {
+struct Task: Identifiable, Equatable, Hashable {
     let id = UUID()
     let description: String
     let imageName: String

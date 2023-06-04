@@ -23,8 +23,13 @@ class CitaViewModel: ObservableObject {
         "Activity 9",
         "Activity 10",
     ]
+    // MARK: Completed Tasks
     @Published var completedActivities: [String] = []
+    
+    // MARK: Refers to Dial's Progress
     @Published var progress: Float = 0.0
+    
+    // MARK: Completing a Task Here
     
     func completeActivity(activity: String) {
         if let index = pendingActivities.firstIndex(of: activity) {
@@ -103,7 +108,6 @@ struct ProgressView: View {
             Text("Progress: \(Int(viewModel.progress * 100))%")
                 .font(.title)
                 .padding()
-            
             ZStack {
                 Circle()
                     .stroke(lineWidth: 20)
@@ -113,6 +117,8 @@ struct ProgressView: View {
                 Circle()
                     .trim(from: 0.0, to: CGFloat(viewModel.progress))
                     .stroke(style: StrokeStyle(lineWidth: 20, lineCap: .round, lineJoin: .round))
+                    .foregroundColor(.orange)
+
             }
         }
     }

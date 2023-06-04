@@ -8,20 +8,18 @@
 import SwiftUI
 
 struct PendingTaskListView: View {
-    @EnvironmentObject var vm: DistrictsViewModel
+    @ObservedObject var vm: DistrictsViewModel
     var body: some View {
         NavigationView {
                 List {
-                    ForEach(vm.tasks) { task in
+                    ForEach(vm.tasks, id: \.self) { task in
                         HStack(alignment: .top) {
                             Text(task.description)
-                            
                             Spacer()
                             Button(action: {
                                     vm.completeTask(task: task)
                             }) {
                                 Text("Search")
-                                
                             }
                             .buttonStyle(.borderedProminent)
                         }
@@ -35,8 +33,7 @@ struct PendingTaskListView: View {
 
 struct PendingTaskListView_Previews: PreviewProvider {
     static var previews: some View {
-        PendingTaskListView()
-            .environmentObject(DistrictsViewModel())
+        PendingTaskListView(vm: DistrictsViewModel())
     }
 }
 

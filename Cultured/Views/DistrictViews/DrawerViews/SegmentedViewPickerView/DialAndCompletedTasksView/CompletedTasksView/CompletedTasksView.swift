@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct CompletedTasksView: View {
-    @EnvironmentObject var vm: DistrictsViewModel
+    @ObservedObject var vm: DistrictsViewModel
     var body: some View {
         NavigationView {
             List {
-                ForEach(vm.completedTasks) { task in
+                ForEach(vm.completedTasks, id: \.self) { task in
                     HStack {
                         Text(task.description)
                     }
@@ -24,7 +24,6 @@ struct CompletedTasksView: View {
 }
 struct CompletedTasksView_Previews: PreviewProvider {
     static var previews: some View {
-        CompletedTasksView()
-            .environmentObject(DistrictsViewModel())
+        CompletedTasksView(vm: DistrictsViewModel())
     }
 }

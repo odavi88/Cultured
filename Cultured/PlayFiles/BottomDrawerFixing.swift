@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct BottomDrawerFixing: View {
     @State private var offSet: CGFloat = 0
@@ -15,6 +16,10 @@ struct BottomDrawerFixing: View {
 
     var body: some View {
         ZStack {
+            MapView() // Add the map view as the background
+                .ignoresSafeArea()
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+            
             GeometryReader { proxy in
                 // MARK: Blur Effect Here
                 BlurView(style: .systemUltraThinMaterial)
@@ -28,8 +33,6 @@ struct BottomDrawerFixing: View {
                     }
                 }
                 .padding(.top, 50) // Adjust the padding as needed
-
-                
             }
             .offset(y: offSet + dragOffset.height)
             .gesture(
@@ -54,24 +57,18 @@ struct BottomDrawerFixing: View {
     }
 }
 
-
-//struct BottomSheetDrawerView<Content: View>: View {
-//    @Binding var offset: CGFloat
-//    @ViewBuilder let content: () -> Content
-//    var body: some View {
-//        GeometryReader { geometry in
-//            VStack {
-//                Spacer()
-//                self.content()
-//            }
-//            .frame(width: geometry.size.width, height: geometry.size.height, alignment: .bottom)
-//            .offset(y: self.offset)
-//        }
-//    }
-//}
-
 struct BottomDrawerFixing_Previews: PreviewProvider {
     static var previews: some View {
         BottomDrawerFixing()
+    }
+}
+
+struct MapView: UIViewRepresentable {
+    func makeUIView(context: Context) -> MKMapView {
+        MKMapView(frame: .zero)
+    }
+    
+    func updateUIView(_ uiView: MKMapView, context: Context) {
+        // Update the map view if needed
     }
 }

@@ -14,7 +14,7 @@ struct DetroitDialView: View {
     
     var body: some View {
         VStack {
-            CircularProgressView(vm: vm, progress: 0.0)
+            CircularProgressView(vm: vm)
         }
     }
 }
@@ -22,8 +22,6 @@ struct DetroitDialView: View {
 
 struct CircularProgressView: View {
     @ObservedObject var vm: DistrictsViewModel
-    var progress: Double
-    
     var body: some View {
         VStack {
             Text("Downtown")
@@ -31,14 +29,15 @@ struct CircularProgressView: View {
                 .padding(.bottom, 30)
             ZStack {
                 Circle()
-                    .stroke(lineWidth: 20.0)
+                    .stroke(lineWidth: 20)
                     .opacity(0.3)
                     .foregroundColor(.gray)
                 Circle()
                     .trim(from: 0.0, to: CGFloat(vm.progress))
-                    .stroke(style: StrokeStyle(lineWidth: 20.0, lineCap: .round, lineJoin: .round))
+                    .stroke(style: StrokeStyle(lineWidth: 20, lineCap: .round, lineJoin: .round))
                     .foregroundColor(.orange)
                     .rotationEffect(Angle(degrees: -90))
+                
                 Text("\(Int(vm.progress * 100))%")
                     .font(.title)
             }
@@ -51,6 +50,5 @@ struct CircularProgressView: View {
 struct DetroitDialView_Previews: PreviewProvider {
     static var previews: some View {
         DetroitDialView(vm: DistrictsViewModel())
-//            .environmentObject(DistrictsViewModel())
     }
 }

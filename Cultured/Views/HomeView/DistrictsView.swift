@@ -17,16 +17,16 @@ struct DistrictsView: View {
     
     var body: some View {
         ZStack {
-//            Map(coordinateRegion: $vm.mapRegion, annotationContent: { location in
-//                MapMarker(coordinate: location.coordinates)
-//            })
-//                .ignoresSafeArea()
+            MapView() // Add the map view as the background
+                .ignoresSafeArea()
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
             VStack {
+                // MARK: Location Area Picker
                 header
                     .padding()
                 Spacer()
             }
-            
+            // MARK: Bottom Drawer
             BottomDrawerView()
         }
     }
@@ -91,12 +91,7 @@ extension DistrictsView {
             .background(.thickMaterial)
             .cornerRadius(10)
         .shadow(color: Color.black.opacity(0.3), radius: 20, x: 0, y: 15)
-            
-//                        TabButtonsView()
-            
-            Spacer()
-            // Tab Bar will go here
-//            TabBarView()
+//            Spacer()
         }
     }
 }
