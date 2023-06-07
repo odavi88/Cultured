@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct DistrictsListView: View {
-    @EnvironmentObject private var vm: DistrictsViewModel
-//    @EnvironmentObject private var viewModel: LocationViewModel
+    @EnvironmentObject var vm: DistrictsViewModel
+    @ScaledMetric var fontSize: CGFloat = 17 // Default font size
     var body: some View {
         List {
-            ForEach(vm.districts) { district in
+            ForEach(vm.zones) { zone in
                 Button {
-                    vm.showNextDistrict(district: district)
+                    vm.showNextZone(zone: zone)
                 } label: {
-                    listRowView(district: district)
+                    listRowView(zone: zone)
                 }
                     .padding(.vertical, 4)
                     .listRowBackground(Color.clear)
@@ -35,10 +35,10 @@ struct LocationsListView_Previews: PreviewProvider {
 
 
 extension DistrictsListView {
-    private func listRowView(district: District) -> some View {
+    private func listRowView(zone: Zone) -> some View {
         HStack {
             VStack(alignment: .leading) {
-                Text(district.name)
+                Text(zone.name)
                     .font(.system(size: 20))
                     .minimumScaleFactor(0.5)
                     .font(.headline)

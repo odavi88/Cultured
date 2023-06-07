@@ -13,17 +13,17 @@ import MapKit
 
 struct DistrictsView: View {
     @EnvironmentObject private var vm: DistrictsViewModel
-//    @ObservedObject var viewModel: LocationViewModel
     
     var body: some View {
         ZStack {
-            MapView() // Add the map view as the background
+            // Map view as the background
+            MapView(region: $vm.mapRegion)
                 .ignoresSafeArea()
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
             VStack {
                 // MARK: Location Area Picker
                 header
                     .padding()
+                    .padding(.top, 30)
                 Spacer()
             }
             // MARK: Bottom Drawer
@@ -36,23 +36,14 @@ struct LocationsView_Previews: PreviewProvider {
     static var previews: some View {
         DistrictsView()
             .environmentObject(DistrictsViewModel())
-//        DistrictsView(viewModel: LocationViewModel(locations: [Location(name: "", services: [""], coordinates: CLLocationCoordinate2D(latitude: 42.3319, longitude:  -83.0466), imageNames: [""], link: "")]))
-//            .environmentObject(DistrictsViewModel())
-//
-//        DistrictsView(viewModel: LocationViewModel(locations: [Location(name: "", services: [""], coordinates: CLLocationCoordinate2D(latitude: 42.3319, longitude:  -83.0466), imageNames: [""], link: "")]))
-//            .environmentObject(DistrictsViewModel())
-//            .preferredColorScheme(.dark)
-//            .previewDisplayName("dark")
-//
-//        DistrictsView(viewModel: LocationViewModel(locations: [Location(name: "", services: [""], coordinates: CLLocationCoordinate2D(latitude: 42.3319, longitude:  -83.0466), imageNames: [""], link: "")]))
-//            .environmentObject(DistrictsViewModel())
-//            .previewDevice("iPhone 14 Pro")
-//            .previewDisplayName("14 pro")
-//
-//        DistrictsView(viewModel: LocationViewModel(locations: [Location(name: "", services: [""], coordinates: CLLocationCoordinate2D(latitude: 42.3319, longitude:  -83.0466), imageNames: [""], link: "")]))
-//            .environmentObject(DistrictsViewModel())
-//            .previewDevice("iPhone 13")
-//            .previewDisplayName("13")
+        DistrictsView()
+            .environmentObject(DistrictsViewModel())
+            .preferredColorScheme(.dark)
+            .previewDisplayName("dark")
+        DistrictsView()
+            .environmentObject(DistrictsViewModel())
+            .previewDevice("iPhone SE")
+            .previewDisplayName("iPhone SE")
     }
 }
 
@@ -79,11 +70,11 @@ extension DistrictsView {
                                 .foregroundColor(.primary)
                                 .padding()
                                 .padding(.trailing)
-                                .rotationEffect(Angle(degrees: vm.showDistrictsList ? 180 : 0))
+                                .rotationEffect(Angle(degrees: vm.showZonesList ? 180 : 0))
                         }
                 }
                 
-                if vm.showDistrictsList {
+                if vm.showZonesList {
                     DistrictsListView()
                 }
                 

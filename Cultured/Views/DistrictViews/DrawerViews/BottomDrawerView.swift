@@ -21,7 +21,7 @@ struct BottomDrawerView: View {
                 VStack {
                     CapsuleView()
                     // MARK: Actual PickerButton
-                    SegmentedPickerView()
+                    SegmentedPickerView(vm: DistrictsViewModel())
                         .environmentObject(DistrictsViewModel())
                 }
             }

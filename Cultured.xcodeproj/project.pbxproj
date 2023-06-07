@@ -35,6 +35,12 @@
 		5DB0D1AE2A08809E009654DB /* NavigationTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1AD2A08809E009654DB /* NavigationTestView.swift */; };
 		5DB0D1B22A098BFC009654DB /* CategoryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1B12A098BFC009654DB /* CategoryPickerView.swift */; };
 		5DD0FFD62A2C17B2003355BD /* ProgressDialFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0FFD52A2C17B2003355BD /* ProgressDialFix.swift */; };
+		5DD0FFD82A2CBBC1003355BD /* Zone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0FFD72A2CBBC1003355BD /* Zone.swift */; };
+		5DD0FFDA2A2CBEC8003355BD /* MapZones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0FFD92A2CBEC8003355BD /* MapZones.swift */; };
+		5DD0FFDC2A2CDCDF003355BD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0FFDB2A2CDCDF003355BD /* MapView.swift */; };
+		5DD0FFDE2A2E1771003355BD /* ListViewFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0FFDD2A2E1771003355BD /* ListViewFix.swift */; };
+		5DDF5DFB2A2EBC2D007B266B /* DialColorFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDF5DFA2A2EBC2D007B266B /* DialColorFix.swift */; };
+		5DDF5DFD2A2EF71D007B266B /* DynamicTextFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDF5DFC2A2EF71D007B266B /* DynamicTextFix.swift */; };
 		5DEB9DF92A1A656A002FF773 /* POIView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB9DF82A1A656A002FF773 /* POIView .swift */; };
 		5DEB9DFD2A1BEE44002FF773 /* SuggestionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB9DFC2A1BEE44002FF773 /* SuggestionsListView.swift */; };
 		5DEB9E002A1D274A002FF773 /* ProgressRingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB9DFF2A1D274A002FF773 /* ProgressRingExample.swift */; };
@@ -72,6 +78,12 @@
 		5DB0D1AD2A08809E009654DB /* NavigationTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTestView.swift; sourceTree = "<group>"; };
 		5DB0D1B12A098BFC009654DB /* CategoryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPickerView.swift; sourceTree = "<group>"; };
 		5DD0FFD52A2C17B2003355BD /* ProgressDialFix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressDialFix.swift; sourceTree = "<group>"; };
+		5DD0FFD72A2CBBC1003355BD /* Zone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zone.swift; sourceTree = "<group>"; };
+		5DD0FFD92A2CBEC8003355BD /* MapZones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapZones.swift; sourceTree = "<group>"; };
+		5DD0FFDB2A2CDCDF003355BD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		5DD0FFDD2A2E1771003355BD /* ListViewFix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewFix.swift; sourceTree = "<group>"; };
+		5DDF5DFA2A2EBC2D007B266B /* DialColorFix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialColorFix.swift; sourceTree = "<group>"; };
+		5DDF5DFC2A2EF71D007B266B /* DynamicTextFix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTextFix.swift; sourceTree = "<group>"; };
 		5DEB9DF82A1A656A002FF773 /* POIView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "POIView .swift"; sourceTree = "<group>"; };
 		5DEB9DFC2A1BEE44002FF773 /* SuggestionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsListView.swift; sourceTree = "<group>"; };
 		5DEB9DFF2A1D274A002FF773 /* ProgressRingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRingExample.swift; sourceTree = "<group>"; };
@@ -105,7 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				5D8BF4B62A2A634900C571DE /* DrawerViews */,
-				5D08418C29FB6AA500561ED4 /* DistrictsListView.swift */,
 				5D08419029FC079B00561ED4 /* TabButtonsView.swift */,
 			);
 			path = DistrictViews;
@@ -155,6 +166,7 @@
 		5D08418229FAF5FD00561ED4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5DD0FFD72A2CBBC1003355BD /* Zone.swift */,
 				5D08418529FAF76900561ED4 /* Location.swift */,
 				5D8BF4AF2A2A620700C571DE /* Task.swift */,
 				5D8BF4B12A2A623C00C571DE /* ViewCategory.swift */,
@@ -214,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				5D08417629FAF4E700561ED4 /* DistrictsView.swift */,
+				5DD0FFDB2A2CDCDF003355BD /* MapView.swift */,
 			);
 			path = HomeView;
 			sourceTree = "<group>";
@@ -221,6 +234,7 @@
 		5D8BF4B62A2A634900C571DE /* DrawerViews */ = {
 			isa = PBXGroup;
 			children = (
+				5D08418C29FB6AA500561ED4 /* DistrictsListView.swift */,
 				5D8BF4B72A2A638000C571DE /* BottomDrawerView.swift */,
 				5D8BF4B92A2A63B000C571DE /* SegmentedViewPickerView */,
 			);
@@ -257,8 +271,12 @@
 		5DCD80392A2A5A5B00F31FB5 /* PlayFiles */ = {
 			isa = PBXGroup;
 			children = (
+				5DDF5DFC2A2EF71D007B266B /* DynamicTextFix.swift */,
 				5D0FBBF32A2ABFE8008376B1 /* BottomDrawerFixing.swift */,
 				5DD0FFD52A2C17B2003355BD /* ProgressDialFix.swift */,
+				5DD0FFD92A2CBEC8003355BD /* MapZones.swift */,
+				5DD0FFDD2A2E1771003355BD /* ListViewFix.swift */,
+				5DDF5DFA2A2EBC2D007B266B /* DialColorFix.swift */,
 			);
 			path = PlayFiles;
 			sourceTree = "<group>";
@@ -377,13 +395,19 @@
 				5DB0D1B22A098BFC009654DB /* CategoryPickerView.swift in Sources */,
 				5D08418D29FB6AA500561ED4 /* DistrictsListView.swift in Sources */,
 				5DEB9E022A1D2783002FF773 /* ColorExtentionExample.swift in Sources */,
+				5DDF5DFD2A2EF71D007B266B /* DynamicTextFix.swift in Sources */,
+				5DDF5DFB2A2EBC2D007B266B /* DialColorFix.swift in Sources */,
 				5DEB9E042A1D27D9002FF773 /* DialContentViewExample.swift in Sources */,
 				5D08418F29FC009B00561ED4 /* LocationsTabListView.swift in Sources */,
 				5D51E1B22A2A65C3003FE4C7 /* CompletedTasksView.swift in Sources */,
 				5D08419529FDDB1200561ED4 /* TaskListView.swift in Sources */,
+				5DD0FFDE2A2E1771003355BD /* ListViewFix.swift in Sources */,
 				5D0841D42A03408700561ED4 /* DistrictDialsView.swift in Sources */,
 				5DEB9DF92A1A656A002FF773 /* POIView .swift in Sources */,
+				5DD0FFDA2A2CBEC8003355BD /* MapZones.swift in Sources */,
 				5DD0FFD62A2C17B2003355BD /* ProgressDialFix.swift in Sources */,
+				5DD0FFD82A2CBBC1003355BD /* Zone.swift in Sources */,
+				5DD0FFDC2A2CDCDF003355BD /* MapView.swift in Sources */,
 				5DB0D1AE2A08809E009654DB /* NavigationTestView.swift in Sources */,
 				5D08418929FAFB7000561ED4 /* LocationsDataService.swift in Sources */,
 				5D8BF4BB2A2A63E900C571DE /* SegmentedPickerView.swift in Sources */,

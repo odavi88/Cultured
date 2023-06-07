@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SegmentedPickerView: View {
-    @StateObject private var vm = DistrictsViewModel()
+    @ObservedObject var vm: DistrictsViewModel
     var body: some View {
         VStack {
             Picker("Category", selection: $vm.selectedViewCategory) {
@@ -34,8 +34,7 @@ struct SegmentedPickerView: View {
 
 struct SegmentedPickerView_Previews: PreviewProvider {
     static var previews: some View {
-        SegmentedPickerView()
-            .environmentObject(DistrictsViewModel())
+        SegmentedPickerView(vm: DistrictsViewModel())
         
     }
 }

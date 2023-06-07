@@ -12,7 +12,7 @@ struct DistrictDialsView: View {
     var body: some View {
         
         HStack(spacing: 20) {
-            ForEach(vm.districts) { districts in
+            ForEach(vm.zones) { zone in
                 VStack(spacing: 20) {
                     ZStack {
                         Circle().stroke(Color.accentColor.opacity(0.5), lineWidth: 15)
@@ -20,11 +20,11 @@ struct DistrictDialsView: View {
                         Circle().trim(from: 0, to: 0.15).stroke(Color.accentColor, lineWidth: 15)
                             .frame(width: 90, height: 90)
                             .rotationEffect(.degrees(-90))
-                        Text("\(districts.percentage)%")
+                        Text("\(zone.percentage)%")
                             .font(.system(size: 20, weight: .medium))
                             .minimumScaleFactor(0.5)
                     }
-                    Text(districts.name)
+                    Text(zone.name)
                         .font(.system(size: 20, weight: .medium))
                         .minimumScaleFactor(0.5)
                         

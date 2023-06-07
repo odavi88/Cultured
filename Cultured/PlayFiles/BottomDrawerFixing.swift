@@ -16,9 +16,9 @@ struct BottomDrawerFixing: View {
 
     var body: some View {
         ZStack {
-            MapView() // Add the map view as the background
-                .ignoresSafeArea()
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
+//            MapView() // Add the map view as the background
+//                .ignoresSafeArea()
+//                .frame(maxWidth: .infinity, maxHeight: .infinity)
             
             GeometryReader { proxy in
                 // MARK: Blur Effect Here
@@ -63,12 +63,12 @@ struct BottomDrawerFixing_Previews: PreviewProvider {
     }
 }
 
-struct MapView: UIViewRepresentable {
-    func makeUIView(context: Context) -> MKMapView {
-        MKMapView(frame: .zero)
-    }
-    
-    func updateUIView(_ uiView: MKMapView, context: Context) {
-        // Update the map view if needed
-    }
-}
+//struct MapView: UIViewRepresentable {
+//    func makeUIView(context: Context) -> MKMapView {
+//        MKMapView(frame: .zero)
+//    }
+//
+//    func updateUIView(_ uiView: MKMapView, context: Context) {
+//        // Update the map view if needed
+//    }
+//}

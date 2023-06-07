@@ -39,10 +39,12 @@ struct CircularProgressView: View {
                     .rotationEffect(Angle(degrees: -90))
                 
                 Text("\(Int(vm.progress * 100))%")
-                    .font(.title)
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .foregroundColor(.orange)
             }
         }
-        .padding(40)
+        .padding(80)
     }
 }
 
