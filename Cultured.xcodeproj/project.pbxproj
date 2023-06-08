@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D01B4E62A156796002688BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D01B4E52A156796002688BD /* Assets.xcassets */; };
 		5D08417529FAF4E700561ED4 /* CulturedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08417429FAF4E700561ED4 /* CulturedApp.swift */; };
 		5D08417729FAF4E700561ED4 /* DistrictsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08417629FAF4E700561ED4 /* DistrictsView.swift */; };
 		5D08417929FAF4E800561ED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D08417829FAF4E800561ED4 /* Assets.xcassets */; };
@@ -49,7 +48,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5D01B4E52A156796002688BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../../../Desktop/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
 		5D08417129FAF4E700561ED4 /* Cultured.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cultured.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D08417429FAF4E700561ED4 /* CulturedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CulturedApp.swift; sourceTree = "<group>"; };
 		5D08417629FAF4E700561ED4 /* DistrictsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictsView.swift; sourceTree = "<group>"; };
@@ -126,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				5D08417329FAF4E700561ED4 /* Cultured */,
+				5D08417A29FAF4E800561ED4 /* Preview Content */,
 				5D08417229FAF4E700561ED4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -147,8 +146,6 @@
 				5D08418329FAF60900561ED4 /* ViewModels */,
 				5D08418429FAF61400561ED4 /* Views */,
 				5D08417829FAF4E800561ED4 /* Assets.xcassets */,
-				5D01B4E52A156796002688BD /* Assets.xcassets */,
-				5D08417A29FAF4E800561ED4 /* Preview Content */,
 			);
 			path = Cultured;
 			sourceTree = "<group>";
@@ -367,7 +364,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D08417C29FAF4E800561ED4 /* Preview Assets.xcassets in Resources */,
-				5D01B4E62A156796002688BD /* Assets.xcassets in Resources */,
 				5D08417929FAF4E800561ED4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
