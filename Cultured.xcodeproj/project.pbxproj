@@ -7,44 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D08417529FAF4E700561ED4 /* CulturedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08417429FAF4E700561ED4 /* CulturedApp.swift */; };
-		5D08417729FAF4E700561ED4 /* DistrictsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08417629FAF4E700561ED4 /* DistrictsView.swift */; };
 		5D08417929FAF4E800561ED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D08417829FAF4E800561ED4 /* Assets.xcassets */; };
 		5D08417C29FAF4E800561ED4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D08417B29FAF4E800561ED4 /* Preview Assets.xcassets */; };
-		5D08418629FAF76900561ED4 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08418529FAF76900561ED4 /* Location.swift */; };
-		5D08418929FAFB7000561ED4 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08418829FAFB7000561ED4 /* LocationsDataService.swift */; };
-		5D08418B29FB136200561ED4 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08418A29FB136200561ED4 /* LocationsViewModel.swift */; };
-		5D08418D29FB6AA500561ED4 /* DistrictsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08418C29FB6AA500561ED4 /* DistrictsListView.swift */; };
-		5D08418F29FC009B00561ED4 /* LocationsTabListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08418E29FC009B00561ED4 /* LocationsTabListView.swift */; };
-		5D08419129FC079B00561ED4 /* TabButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08419029FC079B00561ED4 /* TabButtonsView.swift */; };
-		5D08419529FDDB1200561ED4 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08419429FDDB1200561ED4 /* TaskListView.swift */; };
-		5D0841D42A03408700561ED4 /* DistrictDialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0841D32A03408700561ED4 /* DistrictDialsView.swift */; };
-		5D0FBBF42A2ABFE8008376B1 /* BottomDrawerFixing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0FBBF32A2ABFE8008376B1 /* BottomDrawerFixing.swift */; };
-		5D51E1AF2A2A651E003FE4C7 /* DetroitDialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D51E1AE2A2A651E003FE4C7 /* DetroitDialView.swift */; };
-		5D51E1B22A2A65C3003FE4C7 /* CompletedTasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D51E1B12A2A65C3003FE4C7 /* CompletedTasksView.swift */; };
-		5D51E1B52A2A670C003FE4C7 /* PendingTaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D51E1B42A2A670C003FE4C7 /* PendingTaskListView.swift */; };
-		5D8BF4B02A2A620700C571DE /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8BF4AF2A2A620700C571DE /* Task.swift */; };
-		5D8BF4B22A2A623C00C571DE /* ViewCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8BF4B12A2A623C00C571DE /* ViewCategory.swift */; };
-		5D8BF4B42A2A62A200C571DE /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8BF4B32A2A62A200C571DE /* ViewModel.swift */; };
-		5D8BF4B82A2A638000C571DE /* BottomDrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8BF4B72A2A638000C571DE /* BottomDrawerView.swift */; };
-		5D8BF4BB2A2A63E900C571DE /* SegmentedPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8BF4BA2A2A63E900C571DE /* SegmentedPickerView.swift */; };
-		5D8BF4BE2A2A649F00C571DE /* DialAndCompletedTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8BF4BD2A2A649F00C571DE /* DialAndCompletedTaskView.swift */; };
-		5DB0D1A62A07B9CA009654DB /* CompletedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1A52A07B9CA009654DB /* CompletedView.swift */; };
-		5DB0D1AC2A07D468009654DB /* CompletedButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1AB2A07D468009654DB /* CompletedButtonView.swift */; };
-		5DB0D1AE2A08809E009654DB /* NavigationTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1AD2A08809E009654DB /* NavigationTestView.swift */; };
-		5DB0D1B22A098BFC009654DB /* CategoryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D1B12A098BFC009654DB /* CategoryPickerView.swift */; };
-		5DD0FFD62A2C17B2003355BD /* ProgressDialFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0FFD52A2C17B2003355BD /* ProgressDialFix.swift */; };
-		5DD0FFD82A2CBBC1003355BD /* Zone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0FFD72A2CBBC1003355BD /* Zone.swift */; };
-		5DD0FFDA2A2CBEC8003355BD /* MapZones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0FFD92A2CBEC8003355BD /* MapZones.swift */; };
-		5DD0FFDC2A2CDCDF003355BD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0FFDB2A2CDCDF003355BD /* MapView.swift */; };
-		5DD0FFDE2A2E1771003355BD /* ListViewFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0FFDD2A2E1771003355BD /* ListViewFix.swift */; };
-		5DDF5DFB2A2EBC2D007B266B /* DialColorFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDF5DFA2A2EBC2D007B266B /* DialColorFix.swift */; };
-		5DDF5DFD2A2EF71D007B266B /* DynamicTextFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDF5DFC2A2EF71D007B266B /* DynamicTextFix.swift */; };
-		5DEB9DF92A1A656A002FF773 /* POIView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB9DF82A1A656A002FF773 /* POIView .swift */; };
-		5DEB9DFD2A1BEE44002FF773 /* SuggestionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB9DFC2A1BEE44002FF773 /* SuggestionsListView.swift */; };
-		5DEB9E002A1D274A002FF773 /* ProgressRingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB9DFF2A1D274A002FF773 /* ProgressRingExample.swift */; };
-		5DEB9E022A1D2783002FF773 /* ColorExtentionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB9E012A1D2783002FF773 /* ColorExtentionExample.swift */; };
-		5DEB9E042A1D27D9002FF773 /* DialContentViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB9E032A1D27D9002FF773 /* DialContentViewExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -312,7 +276,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D08417F29FAF4E800561ED4 /* Build configuration list for PBXNativeTarget "Cultured" */;
 			buildPhases = (
-				5D08416D29FAF4E700561ED4 /* Sources */,
 				5D08416E29FAF4E700561ED4 /* Frameworks */,
 				5D08416F29FAF4E700561ED4 /* Resources */,
 			);
@@ -369,52 +332,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		5D08416D29FAF4E700561ED4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D08417729FAF4E700561ED4 /* DistrictsView.swift in Sources */,
-				5DEB9E002A1D274A002FF773 /* ProgressRingExample.swift in Sources */,
-				5D08418629FAF76900561ED4 /* Location.swift in Sources */,
-				5DEB9DFD2A1BEE44002FF773 /* SuggestionsListView.swift in Sources */,
-				5DB0D1A62A07B9CA009654DB /* CompletedView.swift in Sources */,
-				5D8BF4B42A2A62A200C571DE /* ViewModel.swift in Sources */,
-				5D8BF4B82A2A638000C571DE /* BottomDrawerView.swift in Sources */,
-				5D51E1B52A2A670C003FE4C7 /* PendingTaskListView.swift in Sources */,
-				5D08419129FC079B00561ED4 /* TabButtonsView.swift in Sources */,
-				5D8BF4B22A2A623C00C571DE /* ViewCategory.swift in Sources */,
-				5D8BF4BE2A2A649F00C571DE /* DialAndCompletedTaskView.swift in Sources */,
-				5D08417529FAF4E700561ED4 /* CulturedApp.swift in Sources */,
-				5DB0D1AC2A07D468009654DB /* CompletedButtonView.swift in Sources */,
-				5DB0D1B22A098BFC009654DB /* CategoryPickerView.swift in Sources */,
-				5D08418D29FB6AA500561ED4 /* DistrictsListView.swift in Sources */,
-				5DEB9E022A1D2783002FF773 /* ColorExtentionExample.swift in Sources */,
-				5DDF5DFD2A2EF71D007B266B /* DynamicTextFix.swift in Sources */,
-				5DDF5DFB2A2EBC2D007B266B /* DialColorFix.swift in Sources */,
-				5DEB9E042A1D27D9002FF773 /* DialContentViewExample.swift in Sources */,
-				5D08418F29FC009B00561ED4 /* LocationsTabListView.swift in Sources */,
-				5D51E1B22A2A65C3003FE4C7 /* CompletedTasksView.swift in Sources */,
-				5D08419529FDDB1200561ED4 /* TaskListView.swift in Sources */,
-				5DD0FFDE2A2E1771003355BD /* ListViewFix.swift in Sources */,
-				5D0841D42A03408700561ED4 /* DistrictDialsView.swift in Sources */,
-				5DEB9DF92A1A656A002FF773 /* POIView .swift in Sources */,
-				5DD0FFDA2A2CBEC8003355BD /* MapZones.swift in Sources */,
-				5DD0FFD62A2C17B2003355BD /* ProgressDialFix.swift in Sources */,
-				5DD0FFD82A2CBBC1003355BD /* Zone.swift in Sources */,
-				5DD0FFDC2A2CDCDF003355BD /* MapView.swift in Sources */,
-				5DB0D1AE2A08809E009654DB /* NavigationTestView.swift in Sources */,
-				5D08418929FAFB7000561ED4 /* LocationsDataService.swift in Sources */,
-				5D8BF4BB2A2A63E900C571DE /* SegmentedPickerView.swift in Sources */,
-				5D8BF4B02A2A620700C571DE /* Task.swift in Sources */,
-				5D51E1AF2A2A651E003FE4C7 /* DetroitDialView.swift in Sources */,
-				5D0FBBF42A2ABFE8008376B1 /* BottomDrawerFixing.swift in Sources */,
-				5D08418B29FB136200561ED4 /* LocationsViewModel.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		5D08417D29FAF4E800561ED4 /* Debug */ = {
